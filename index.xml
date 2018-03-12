@@ -6,10 +6,19 @@
     <description>Recent content on The Blog of Chris Colvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Mar 2018 19:18:40 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 12 Mar 2018 19:26:48 -0400</lastBuildDate>
     
 	<atom:link href="http://chrismcolvin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test2</title>
+      <link>http://chrismcolvin.github.io/posts/test2/</link>
+      <pubDate>Mon, 12 Mar 2018 19:26:48 -0400</pubDate>
+      
+      <guid>http://chrismcolvin.github.io/posts/test2/</guid>
+      <description>This is another test This is a second test file.</description>
+    </item>
     
     <item>
       <title>Test</title>
