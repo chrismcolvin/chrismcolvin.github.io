@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on The Blog of Chris Colvin</title>
-    <link>http://chrismcolvin.github.io/posts/</link>
+    <link>//chrismcolvin.github.io/posts/</link>
     <description>Recent content in Posts on The Blog of Chris Colvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Mar 2018 19:26:48 -0400</lastBuildDate>
     
-	<atom:link href="http://chrismcolvin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chrismcolvin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test2</title>
-      <link>http://chrismcolvin.github.io/posts/test2/</link>
+      <link>//chrismcolvin.github.io/posts/test2/</link>
       <pubDate>Mon, 12 Mar 2018 19:26:48 -0400</pubDate>
       
-      <guid>http://chrismcolvin.github.io/posts/test2/</guid>
+      <guid>//chrismcolvin.github.io/posts/test2/</guid>
       <description>This is another test This is a second test file.</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>http://chrismcolvin.github.io/posts/test/</link>
+      <link>//chrismcolvin.github.io/posts/test/</link>
       <pubDate>Mon, 12 Mar 2018 19:18:40 -0400</pubDate>
       
-      <guid>http://chrismcolvin.github.io/posts/test/</guid>
+      <guid>//chrismcolvin.github.io/posts/test/</guid>
       <description>Hello World! This is only a test. Now let&amp;rsquo;s see if this shows up.</description>
     </item>
     
