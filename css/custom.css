@@ -1,10 +1,20 @@
-nav .logo {
-  width: 55px;
-  height: 55px;
-  margin-right: 20px; }
-nav h1 {
-  position: relative;
-  top: 60px;
-  left: -75px; }
+body, button, input, select, textarea {
+  font-family: monospace; }
+
+nav .nav-item {
+  padding: 0; }
+  nav .nav-item .logo {
+    width: 55px;
+    height: 55px; }
+  nav .nav-item h1 {
+    position: relative;
+    top: 60px;
+    left: -75px; }
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  color: #333; }
+
+.button.is-link:focus, .button.is-link:hover {
+  background-color: transparent; }
 
 /*# sourceMappingURL=custom.css.map */
