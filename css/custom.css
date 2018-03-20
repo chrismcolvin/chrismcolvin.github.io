@@ -1,15 +1,12 @@
 body, button, input, select, textarea {
   font-family: monospace; }
 
-nav .nav-item {
-  padding: 0; }
-  nav .nav-item .logo {
+.nav .nav-left .nav-item {
+  padding: 0;
+  margin-right: 20px !important; }
+  .nav .nav-left .nav-item .logo {
     width: 55px;
     height: 55px; }
-  nav .nav-item h1 {
-    position: relative;
-    top: 60px;
-    left: -75px; }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: #333; }

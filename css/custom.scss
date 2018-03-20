@@ -2,22 +2,25 @@ body, button, input, select, textarea {
     font-family: monospace;
 }
 
-nav {
+.nav {
+  .nav-left {
     .nav-item {
-        padding: 0;
-        
-        .logo {
-            width: 55px;
-            height: 55px;
-            //margin-right: 20px;
-        }
-    
-        h1 {
-            position: relative;
-            top: 60px;
-            left: -75px;
-        }
+      padding: 0;
+      margin-right: 20px !important;
+
+      .logo {
+          width: 55px;
+          height: 55px;
+          //margin-right: 20px;
+      }
+  
+      // h1 {
+      //     position: relative;
+      //     top: 60px;
+      //     left: -75px;
+      // }
     }
+  } 
 }
 
 .content {
