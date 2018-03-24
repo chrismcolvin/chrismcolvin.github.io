@@ -1,34 +1,237 @@
+//colors
+$blue: #17659E;
+$green: #228A7E;
+
 body, button, input, select, textarea {
     font-family: sans-serif;
 }
 
-.nav {
-  .nav-left {
-    .nav-item {
-      padding: 0;
-      margin-right: 20px !important;
+// .nav {
+//   .nav-left {
+//     .nav-item {
+//       padding: 0;
+//       margin-right: 20px !important;
 
-      .logo {
-          width: 55px;
-          height: 55px;
-          //margin-right: 20px;
-      }
+//       .logo {
+//           width: 55px;
+//           height: 55px;
+//           //margin-right: 20px;
+//       }
   
-      // h1 {
-      //     position: relative;
-      //     top: 60px;
-      //     left: -75px;
-      // }
-    }
-  } 
+//       // h1 {
+//       //     position: relative;
+//       //     top: 60px;
+//       //     left: -75px;
+//       // }
+//     }
+//   } 
+// }
+
+.nav h1.title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px !important;
+  
+  &:hover {
+    animation: logo 2s infinite;
+    -webkit-animation: logo 2s infinite;
+    -moz-animation: logo 2s infinite;
+    -o-animation: logo 2s infinite;
+  }
+}
+
+h1.title {
+  color: #333;
+  font-weight: 700;
+}
+
+svg {
+  stroke: darkgrey;
+
+  &:hover {
+    stroke: grey;
+  }
 }
 
 .content {
-    h1, h2, h3, h4, h5, h6 {
-        color: #333;
+    h2, h3, h4, h5, h6 {
+      color: #333;
+      font-weight: 500;
+    }
+
+    p {
+      color: #454545 !important;
     }
 }
 
 .button.is-link:focus, .button.is-link:hover {
     background-color: transparent;
+}
+
+@keyframes logo {
+  0% {
+    color: teal;
+  }
+
+  10% {
+    color: salmon;
+  }
+
+  20% {
+    color: skyblue;
+  }
+
+  30% {
+    color: grey;
+  }
+
+  40% {
+    color: orchid;
+  }
+
+  50% {
+    color: royalblue;
+  }
+
+  60% {
+    color: coral;
+  }
+
+  70% {
+    color: dodgerblue;
+  }
+
+  80% {
+    color: lightseagreen;
+  }
+
+  90% {
+    color: plum;
+  }
+}
+
+@-webkit-keyframes logo {
+  0% {
+    color: teal;
+  }
+
+  10% {
+    color: salmon;
+  }
+
+  20% {
+    color: skyblue;
+  }
+
+  30% {
+    color: grey;
+  }
+
+  40% {
+    color: orchid;
+  }
+
+  50% {
+    color: royalblue;
+  }
+
+  60% {
+    color: coral;
+  }
+
+  70% {
+    color: dodgerblue;
+  }
+
+  80% {
+    color: lightseagreen;
+  }
+
+  90% {
+    color: plum;
+  }
+}
+
+@-moz-keyframes logo {
+  0% {
+    color: teal;
+  }
+
+  10% {
+    color: salmon;
+  }
+
+  20% {
+    color: skyblue;
+  }
+
+  30% {
+    color: grey;
+  }
+
+  40% {
+    color: orchid;
+  }
+
+  50% {
+    color: royalblue;
+  }
+
+  60% {
+    color: coral;
+  }
+
+  70% {
+    color: dodgerblue;
+  }
+
+  80% {
+    color: lightseagreen;
+  }
+
+  90% {
+    color: plum;
+  }
+}
+
+@-o-keyframes logo {
+  0% {
+    color: teal;
+  }
+
+  10% {
+    color: salmon;
+  }
+
+  20% {
+    color: skyblue;
+  }
+
+  30% {
+    color: grey;
+  }
+
+  40% {
+    color: orchid;
+  }
+
+  50% {
+    color: royalblue;
+  }
+
+  60% {
+    color: coral;
+  }
+
+  70% {
+    color: dodgerblue;
+  }
+
+  80% {
+    color: lightseagreen;
+  }
+
+  90% {
+    color: plum;
+  }
 }

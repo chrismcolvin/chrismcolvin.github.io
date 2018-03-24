@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//chrismcolvin.github.io/posts/fountain-pen-2/</loc>
+    <lastmod>2018-03-24T14:41:47-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//chrismcolvin.github.io/posts/hugo-blog/</loc>
     <lastmod>2018-03-17T13:59:48-04:00</lastmod>
   </url>
@@ -18,19 +23,19 @@
   </url>
   
   <url>
+    <loc>//chrismcolvin.github.io/</loc>
+    <lastmod>2018-03-24T14:41:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//chrismcolvin.github.io/posts/</loc>
-    <lastmod>2018-03-17T13:59:48-04:00</lastmod>
+    <lastmod>2018-03-24T14:41:47-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//chrismcolvin.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//chrismcolvin.github.io/</loc>
-    <lastmod>2018-03-17T13:59:48-04:00</lastmod>
     <priority>0</priority>
   </url>
   
