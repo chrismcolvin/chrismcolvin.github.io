@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Chris Colvin 2018</copyright>
-    <lastBuildDate>Sat, 24 Mar 2018 14:41:47 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 31 Mar 2018 12:01:29 -0400</lastBuildDate>
     
 	<atom:link href="//chrismcolvin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Bullet Journal</title>
+      <link>//chrismcolvin.github.io/posts/bullet-journal/</link>
+      <pubDate>Sat, 31 Mar 2018 12:01:29 -0400</pubDate>
+      
+      <guid>//chrismcolvin.github.io/posts/bullet-journal/</guid>
+      <description>Trying That Bullet Journal Thing There is no question that we live in a time when having a handwritten planner is not the norm. In fact, for a long time, I thought my mother was simply wasting her time and money on a yearly planner, going through the process of keeping a physical planner is tedious and the cost of a planner is certainly more than the to-do app on your phone.</description>
+    </item>
     
     <item>
       <title>The Fountain Pen Experiment /2</title>
