@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en-us">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta content="hugo, writing, web development, static site generator, blog, web dev, hugo blog" name="keywords">
+<meta content="The Blog of Chris Colvin - Installing and setting up a Hugo site - Part 2" property="og:description">
+
+<title>Spinning Up a Hugo Blog /2 | Chris Colvin</title>
+
+
+<link rel="stylesheet" href="//chrismcolvin.github.io/css/style.css"/><link rel='stylesheet' href='/css/custom.css'>
+<link rel="shortcut icon" 
+      type="image/png" 
+      href="/favicon.png"></head>
+<body>
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="//chrismcolvin.github.io/">
+          
+         <h1 class="title is-4">Chris Colvin</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile"><a class="level-item" href='https://codepen.io/chrismcolvin' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/>
+    <line x1="12" y1="22" x2="12" y2="15.5"/>
+    <polyline points="22 8.5 12 15.5 2 8.5"/>
+    <polyline points="2 15.5 12 8.5 22 15.5"/>
+    <line x1="12" y1="2" x2="12" y2="8.5"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" href='mailto:chrismcolvin@hotmail.com' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" href='https://github.com/chrismcolvin' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" href='https://instagram.com/chriscolvin' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" href='https://linkedin.com/in/christopher-colvin-800b0261' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path stroke-width="1.8" d="m5.839218,4.101561c0,1.211972 -0.974141,2.194011 -2.176459,2.194011s-2.176459,-0.982039 -2.176459,-2.194011c0,-1.211094 0.974141,-2.194011 2.176459,-2.194011s2.176459,0.982917 2.176459,2.194011zm0.017552,3.94922l-4.388022,0l0,14.04167l4.388022,0l0,-14.04167zm7.005038,0l-4.359939,0l0,14.04167l4.360816,0l0,-7.370999c0,-4.098413 5.291077,-4.433657 5.291077,0l0,7.370999l4.377491,0l0,-8.89101c0,-6.915523 -7.829986,-6.66365 -9.669445,-3.259423l0,-1.891237z"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" href='https://twitter.com/chrismcolvin' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="subtitle is-6 is-pulled-right">
+      
+    </div>
+    <h2 class="subtitle is-6">April 9, 2018</h2>
+    <h1 class="title">Spinning Up a Hugo Blog /2</h1>
+    
+    <div class="content">
+      
+
+<h1 id="spinning-up-a-hugo-site-2">Spinning Up a Hugo Site /2</h1>
+
+<h2 id="part-2-installing-hugo">Part 2: Installing Hugo</h2>
+
+<h3 id="intro">Intro</h3>
+
+<p>Alright, so you&rsquo;re excited about creating your new website and you&rsquo;re excited to give Hugo a try. Fair enough! Let&rsquo;s jump right into it!</p>
+
+<p>A couple things to note, though, before we get started. If you are looking for the simplest and quickest way to get Hugo up and running, look no further than <a href="https://gohugo.io/getting-started/quick-start/">Hugo&rsquo;s own docs</a>. They are fairly easy to read, and are great if you&rsquo;re just looking to get into it as quickly as possible. For me, quick start guide only got me so far, left me with a lot of questions, and didn&rsquo;t actually work. My goal here is flesh out some of those questions, as well as provides answers for some of the issues I ran into, just in case someone else does.</p>
+
+<p>It&rsquo;s also worth noting that while I work on Windows, macOS, and Linux, I&rsquo;ve only used Hugo on Linux, so that&rsquo;s what you&rsquo;ll see here. If you&rsquo;ve got another OS, things shouldn&rsquo;t be too different (depending on what you&rsquo;ve got installed), and Google should be able to get you to where you need to go.</p>
+
+<h3 id="installation">Installation</h3>
+
+<p>Installation with Hugo is (mostly) a breeze. Following the instructions on their quick start guide seems to work pretty well, with one caviat that I found-more on that later.</p>
+
+<p>To start off, open your terminal/console of choice. I use the built-in terminal that comes with Ubuntu, my Linux flavor of choice. Using the built-in terminal on macOS should work just as well, though I believe you need Homebrew installed. Windows users will want to follow the steps mentioned <a href="https://gohugo.io/getting-started/installing/#windows">here</a>. Once you&rsquo;re in your console, make sure that you&rsquo;re not in the wrong folder by typing:</p>
+
+<pre><code>~$ cd
+</code></pre>
+
+<p>Now, on Linux all you have to do is type:</p>
+
+<pre><code>~$ sudo apt-get install hugo
+</code></pre>
+
+<p>This should do it for Ubuntu/Debian users. Go ahead and follow the instructions in their docs if you&rsquo;re using a different operating system.</p>
+
+<p>Once complete, go ahead and type: <code>hugo version</code> to double check that the installation worked. It should show something like this:</p>
+
+<p><img src="/posts/hugo-version.png" alt="hugo version return" /></p>
+
+<h3 id="the-version-problem">The Version Problem</h3>
+
+<p>One of the issues I ran into with Hugo was with installation. Or rather, it was with installing a theme. That in itself is an easy enough task, but if you look at a theme <a href="https://themes.gohugo.io/">here</a>, you&rsquo;ll see that on the left-hand side, it shows a minimum Hugo version. This is the minimum version of Hugo that you need installed in order to use that particular theme.</p>
+
+<p>That&rsquo;s all well and good, but installing Hugo by following the instructions in their docs should install the latest stable version, so that any theme can be used, right? Wrong. When I installed Hugo using the apt-get command, it installed version 0.16, or something like that. This only allowed me to use a small handful of themes, and there is no way to sort them by minimum version support.</p>
+
+<p>After some digging, I found that you can manually install the latest and greatest Hugo version by using the appropriate link from <a href="https://github.com/gohugoio/hugo/releases">this page</a>. This is pretty typical for installing stored on GitHub, but as someone who is fairly new to all of this, it was a bit confusing and frustrating.</p>
+
+<p>To do this (again, on Ubuntu Linux), simply right-click the appropriate link, in my case the one that ends with Linux_64bit.deb, and put the following in a fresh console:</p>
+
+<pre><code>~$ sudo wget https://github.com/gohugoio/hugo/releases/download/v0.37.1/hugo_0.37.1_Linux-64bit.deb
+</code></pre>
+
+<p>Obviously replace that long url with the one you just copied. By the way, if you&rsquo;re like me, you&rsquo;re probably wondering how to paste something into a terminal. Well, usually it&rsquo;s ctrl+shift+v. Now that we&rsquo;ve downloaded the newest release of Hugo, let&rsquo;s unpack it using the following:</p>
+
+<pre><code>~$ sudo dpkg -i hugo*.deb
+</code></pre>
+
+<p>Now, running <code>hugo version</code> should return the version number that you just installed.</p>
+
+<p>If you&rsquo;re still not seeing the right version of Hugo, I recommend turning to the good people of the internet to help solve the issue, but if you&rsquo;re on Linux, and you followed all the above steps, you shouldn&rsquo;t really have any issues.</p>
+
+<h3 id="creating-your-site">Creating Your Site</h3>
+
+<p>Now it&rsquo;s time to create your site. With Hugo, this is very, very easy. It actually only takes a single command. But before we do that, let&rsquo;s make sure you&rsquo;re putting that site where you want it!</p>
+
+<p>Create a folder where you want the site to be either in a finder/explorer window, or in your console. Either way, you&rsquo;ll need to navigate to that folder in your console, so I find it&rsquo;s easier to just <code>mkdir</code> there. If you&rsquo;re new to the console and aren&rsquo;t sure how to navigate, <a href="https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything">here&rsquo;s a decent resource to get you started</a>.</p>
+
+<p>Keep in mind that when you create your site, it will create it within a folder with the name of&hellip; well, whatever you name your site. So, if you&rsquo;re making a blog site and you want it to be within your Documents/sites folder, just stay in the sites folder. No need to create one called blog.</p>
+
+<p>Once you&rsquo;re inside the folder you want to store the site in, we&rsquo;ll use the following command:</p>
+
+<pre><code>hugo new site blog
+</code></pre>
+
+<p>Instead of <em>blog</em>, use whatever name you want to identify your site. This will create a new folder with all of the necessary files. So, if we type <code>ls</code> you should see your new site folder listed.</p>
+
+<p><img src="/posts/ls-blog.png" alt="showing list of files/folders in a terminal window" /></p>
+
+<p>That&rsquo;s it.</p>
+
+<h3 id="installing-a-theme">&ldquo;Installing&rdquo; a Theme</h3>
+
+<p>For most themes, to install, you&rsquo;re really just going to clone a GitHub repo into your themes folder. So, first things first, <code>cd</code> into your site folder. In my case that would be</p>
+
+<pre><code>cd blog
+</code></pre>
+
+<p>Now, go to the <a href="https://themes.gohugo.io/">hugo themes site</a>, and pick one. Remember how I made a big deal about how <code>apt-get install hugo</code> didn&rsquo;t install the latest version? That&rsquo;s because most of these themes will require a much later version of Hugo than what it initially installed.</p>
+
+<p>Anyways, pick a theme-I really like Kiss for a super simple blog-and click on the Download button.</p>
+
+<p><img src="/posts/theme-download.png" alt="where to download a Hugo theme" /></p>
+
+<p>You&rsquo;ll want to look for the big green &ldquo;Clone or Download&rdquo; button on the themes GitHub page. Click that, and then copy the URL.</p>
+
+<p><img src="/posts/github-copy.png" alt="download github button" /></p>
+
+<p>Now go back to your console.</p>
+
+<p>First, we need to initialize Git in your site folder. It&rsquo;s pretty simple, just <code>git init</code>. If you don&rsquo;t have Git installed, <a href="https://git-scm.com/">go ahead and install it first</a>. Then, we want to tell Git to clone and download the theme files into the appropriate folder. By telling it to put the theme in <code>themes/kiss</code> it will automatically create the folder for me.</p>
+
+<pre><code>git submodule add https://github.com/ribice/kiss.git themes/kiss
+</code></pre>
+
+<p>Let it do its thing. It should look something like this.</p>
+
+<p><img src="/posts/theme-install.png" alt="installing a Hugo theme" /></p>
+
+<p>Once that&rsquo;s done, you&rsquo;ve pretty much installed a theme. You&rsquo;ll need to tell your site to use the theme, especially if you have multiple themes installed (which you can totally do). The first thing you&rsquo;ll want to do is add the theme to your config.toml file. This is where a lot of basic information for your site will go. Being a .toml file, it&rsquo;s a sort of database for Hugo to pull information from when it&rsquo;s building your site later on. Once you&rsquo;ve downloaded and decided on a theme, go ahead and add it to your config.toml file: <code>theme = &quot;themeName&quot;</code>.</p>
+
+<p>If you&rsquo;ve installed multiple themes, and you want to try some different ones, you can use <code>-t</code> to tell Hugo which theme to use when building your site. In a bit, we&rsquo;ll go over how to view your site on Hugo&rsquo;s built-in local server, which is a great way to view and try different themes locally.</p>
+
+<h3 id="adding-some-content">Adding Some Content</h3>
+
+<p>Right now, you&rsquo;ve got a site with a theme, but nothing else. Let&rsquo;s make a new blog post to test out how the site looks.</p>
+
+<pre><code>hugo new posts/test.md
+</code></pre>
+
+<p>This tells Hugo to create a new post called test.md. .md files are Markdown files. Markdown is a great way to quickly and easily write content for the web. It has it&rsquo;s own, simple, syntax, and then Hugo will spit that out at HTML in your site files. It&rsquo;s worth <a href="https://daringfireball.net/projects/markdown/syntax">learning a bit of Markdown</a> to make writing your posts easy (and honestly quite fun).</p>
+
+<p>Go ahead and open your new Markdown file in your favorite text editor. It will be in the posts folder within your site folder. The first thing you&rsquo;ll see is a bit of metadata that Hugo automatically added to the top of the file. For now, let&rsquo;s just leave that as-is.</p>
+
+<p>Go ahead and add some text underneath that metadata-after the second set of dashes-and then save the file.</p>
+
+<p>Congrats! You just added some content to your site!</p>
+
+<h3 id="viewing-the-site-locally-using-hugo-server">Viewing the Site Locally Using Hugo Server</h3>
+
+<p>Head back over to your console, and make sure that you&rsquo;re in your site folder. If you&rsquo;ve done everything the way I&rsquo;ve described, you should already be there, but it never hurts to make sure. Whenever you&rsquo;re working on your site, and you want to view it in the broswer locally, you&rsquo;ll use the Hugo server. This is the built-in local server that comes with Hugo, and it makes it super easy to build and view your site with one simple command.</p>
+
+<pre><code>hugo server
+</code></pre>
+
+<p>That&rsquo;s it.</p>
+
+<p>Now you can go to <a href="http://localhost:1313/">http://localhost:1313/</a> to view your site. However, if you left the metadata on your test.md file alone, you&rsquo;re probably not seeing that post. That&rsquo;s because Hugo creates a new post as a draft by default, and running the server normally will ignore drafts. To see your drafts as well, all you have to do is add <code>-D</code> after the server command. First, cancel the current instance of the server using ctrl+c. Then:</p>
+
+<pre><code>hugo server -D
+</code></pre>
+
+<p>Now you should be able to refresh the site and see your post! It will likely say &ldquo;:Draft&rdquo; after it, letting you know that it&rsquo;s a draft.</p>
+
+<p>To view your site with different themes, simply do like this:</p>
+
+<pre><code>hugo server -t themeName
+</code></pre>
+
+<p>Fun fact: Hugo server has an auto-refresh feature, so if you make a change to your posts while it&rsquo;s running, your changes will appear as soon as you save the file. No need to refresh! It&rsquo;s pretty great, but I have had instances when I needed to refresh the page a few times to see a bigger styling change or the like.</p>
+
+<h3 id="go-have-fun">Go Have Fun!</h3>
+
+<p>From here, go ahead and play around! If you want to do something specific with the site, <a href="https://gohugo.io/documentation/">Hugo&rsquo;s own docs</a> are a great resource, but there are plenty of people out there who know what they&rsquo;re doing, and more than willing to help.</p>
+
+<h3 id="hosting-your-hugo-site-online">Hosting Your Hugo Site Online</h3>
+
+<p>Simply run the <code>hugo</code> command within in your site folder to build the site. This will create a folder called <em>public</em>, which contains all the normal site files in .html, .css, etc.</p>
+
+<p>There are various ways to host a Hugo site. I personally host mine on <a href="https://pages.github.com/">GitHub Pages</a>. I found <a href="https://github.com/whipperstacker/blog/blob/master/content/post/deploying-a-hugo-site-to-github-pages.md">this guide</a> to be extremely helpful for getting that working (along with a lot of trial and error). You could upload files via ftp. Whatever you feel confortable with.</p>
+
+<hr />
+
+<p>I hope that you&rsquo;re finding as much joy in building with Hugo as I have. It&rsquo;s allowed me to quickly, easily, and enjoyably build static websites, even on a busy schedule. I can&rsquo;t wait to build something else!</p>
+
+      
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; Chris Colvin 2018</p>
+    
+  </div>
+</section>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27880596-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-27880596-2');
+</script>
+
+
+</body>
+</html>
+

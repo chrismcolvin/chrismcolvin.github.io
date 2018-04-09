@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Chris Colvin 2018</copyright>
-    <lastBuildDate>Sat, 07 Apr 2018 14:07:38 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 09 Apr 2018 19:09:49 -0400</lastBuildDate>
     
 	<atom:link href="//chrismcolvin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spinning Up a Hugo Blog /2</title>
+      <link>//chrismcolvin.github.io/posts/hugo-blog-2/</link>
+      <pubDate>Mon, 09 Apr 2018 19:09:49 -0400</pubDate>
+      
+      <guid>//chrismcolvin.github.io/posts/hugo-blog-2/</guid>
+      <description>Spinning Up a Hugo Site /2 Part 2: Installing Hugo Intro Alright, so you&amp;rsquo;re excited about creating your new website and you&amp;rsquo;re excited to give Hugo a try. Fair enough! Let&amp;rsquo;s jump right into it!
+A couple things to note, though, before we get started. If you are looking for the simplest and quickest way to get Hugo up and running, look no further than Hugo&amp;rsquo;s own docs. They are fairly easy to read, and are great if you&amp;rsquo;re just looking to get into it as quickly as possible.</description>
+    </item>
     
     <item>
       <title>The Fountain Pen Experiment /3</title>
