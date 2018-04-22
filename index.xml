@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Chris Colvin 2018</copyright>
-    <lastBuildDate>Thu, 12 Apr 2018 18:11:03 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Apr 2018 18:31:27 -0400</lastBuildDate>
     
 	<atom:link href="//chrismcolvin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What is This Blog?</title>
+      <link>//chrismcolvin.github.io/posts/blog/</link>
+      <pubDate>Sun, 22 Apr 2018 18:31:27 -0400</pubDate>
+      
+      <guid>//chrismcolvin.github.io/posts/blog/</guid>
+      <description>I write about my interests. As of right now, that is really about the gist of it! I&amp;rsquo;ve wanted to start a blog for a long time. However, I never really thought I had anything worth sharing. And, honestly, not much has changed. One thing that has changed, though, is my perspective no whether or not that matters. Turns out, it doesn&amp;rsquo;t. But something does&amp;hellip;
+I have a confession: I hated writing papers in high-school.</description>
+    </item>
     
     <item>
       <title>The Fisher Space Pen</title>
