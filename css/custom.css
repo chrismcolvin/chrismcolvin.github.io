@@ -25,6 +25,16 @@ svg {
   font-weight: 500; }
 .content p {
   color: #454545 !important; }
+.content blockquote {
+  background: linear-gradient(45deg, dodgerblue, teal) !important;
+  border-radius: 8px;
+  border-left: 5px solid #454545;
+  border-right: 5px solid #454545; }
+  .content blockquote p {
+    font-size: 1.5rem !important;
+    color: white !important; }
+.content img {
+  border-radius: 8px; }
 
 .button.is-link:focus, .button.is-link:hover {
   background-color: transparent; }

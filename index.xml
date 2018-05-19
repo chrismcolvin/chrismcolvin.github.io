@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Chris Colvin 2018</copyright>
-    <lastBuildDate>Mon, 07 May 2018 21:01:39 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 19 May 2018 11:41:33 -0400</lastBuildDate>
     
 	<atom:link href="//chrismcolvin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Photo Blog /1</title>
+      <link>//chrismcolvin.github.io/posts/photo-blog-1/</link>
+      <pubDate>Sat, 19 May 2018 11:41:33 -0400</pubDate>
+      
+      <guid>//chrismcolvin.github.io/posts/photo-blog-1/</guid>
+      <description>It&amp;rsquo;s Been a Minute. If you&amp;rsquo;ve read my post about setting new goals this spring, you might remember that one of my goals was to shoot more photos, and share those photos in ways I haven&amp;rsquo;t done before. One of the ways I thought of to share more photos is to create photo blog posts here on my personal blog. Basically, after I get a roll of film developed, or go on a little trip somewhere, or just go for a photo walk, I&amp;rsquo;ll post my findings here.</description>
+    </item>
     
     <item>
       <title>Spring Is Here</title>

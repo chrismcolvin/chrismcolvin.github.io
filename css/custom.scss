@@ -54,20 +54,37 @@ svg {
 }
 
 .content {
-    h2, h3, h4, h5, h6 {
-      color: #333;
-      font-weight: 500;
-    }
+  h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: 500;
+  }
 
+  p {
+    color: #454545 !important;
+  }
+
+  blockquote {
+    background: linear-gradient(45deg,dodgerblue,teal) !important;
+    border-radius: 8px;
+    border-left: 5px solid #454545;
+    border-right: 5px solid #454545;
+  
     p {
-      color: #454545 !important;
+      font-size: 1.5rem !important;
+      color: white !important;
     }
+  }
+
+  img {
+    border-radius: 8px;
+  }
 }
 
 .button.is-link:focus, .button.is-link:hover {
     background-color: transparent;
 }
 
+//keyframes for logo hover animation
 @keyframes logo {
   0% {
     color: teal;
