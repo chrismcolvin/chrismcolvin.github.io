@@ -40,6 +40,11 @@ svg {
 .content img {
   border-radius: 8px; }
 
+.button {
+  border: none; }
+  .button:focus, .button:active {
+    border: none; }
+
 .button.is-link:focus, .button.is-link:hover {
   background-color: transparent; }
 

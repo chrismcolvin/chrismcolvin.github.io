@@ -86,9 +86,18 @@ svg {
   }
 }
 
+.button {
+  border: none;
+
+  &:focus, &:active {
+    border: none;
+  }
+}
+
 .button.is-link:focus, .button.is-link:hover {
     background-color: transparent;
 }
+
 
 //keyframes for logo hover animation
 @keyframes logo {
