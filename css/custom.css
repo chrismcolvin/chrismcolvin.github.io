@@ -27,6 +27,8 @@ svg {
 .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: #333;
   font-weight: 500; }
+.content h3 {
+  margin-top: 60px !important; }
 .content p {
   color: #454545 !important; }
 .content blockquote {
