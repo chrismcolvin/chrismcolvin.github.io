@@ -1,133 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 body, button, input, select, textarea {
-  font-family: sans-serif; }
+  font-family: "Raleway", sans-serif;
+}
 
+section.section:first-child {
+  background-color: #333;
+}
+
+.nav {
+  display: block;
+  background-color: transparent;
+  text-align: left;
+}
 .nav h1.title {
-  color: #333;
-  font-weight: 700;
-  font-size: 32px !important; }
-  .nav h1.title:hover {
-    animation: logo 2s infinite;
-    -webkit-animation: logo 2s infinite;
-    -moz-animation: logo 2s infinite;
-    -o-animation: logo 2s infinite; }
+  color: #f8f8f8;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  font-size: 32px !important;
+  white-space: nowrap;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+.nav h1.title:hover {
+  animation: logo 2s infinite;
+  -webkit-animation: logo 2s infinite;
+  -moz-animation: logo 2s infinite;
+  -o-animation: logo 2s infinite;
+}
+.nav ul.main-menu {
+  width: 100%;
+  text-align: left;
+  margin: 1em 0;
+}
+.nav ul.main-menu li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.nav ul.main-menu li:last-child {
+  margin-right: 0;
+}
+.nav ul.main-menu li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #f8f8f8;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: all 0.2s ease;
+}
+.nav ul.main-menu li a:hover {
+  border-bottom: 1px solid #f8f8f8;
+}
+.nav .nav-item.level.is-mobile {
+  display: block;
+  text-align: left;
+  padding: 0;
+}
+.nav .nav-item.level.is-mobile a.level-item {
+  margin: 0 1em 0 0;
+}
+.nav .nav-item.level.is-mobile a.level-item span i {
+  color: #dfdfdf;
+}
+.nav .nav-item.level.is-mobile a.level-item span i svg {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  transition: all 0.2s ease;
+}
+.nav .nav-item.level.is-mobile a.level-item:hover span i svg {
+  transform: scale(1.1);
+}
+.nav a.nav-item {
+  padding: 0;
+  height: 100%;
+  display: inline-block;
+}
 
 h1.title {
   color: #333;
-  font-weight: 700; }
-
-svg {
-  stroke: darkgrey; }
-  svg:hover {
-    stroke: grey; }
+  font-weight: 700;
+}
 
 .content h1 {
   font-size: 34px !important;
   font-weight: 700 !important;
-  color: lightseagreen !important; }
+  font-family: "Raleway", sans-serif;
+  color: lightseagreen !important;
+}
 .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: #333;
-  font-weight: 500; }
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
 .content h3 {
-  margin-top: 60px !important; }
+  margin-top: 60px !important;
+}
 .content p {
-  color: #454545 !important; }
+  color: #454545 !important;
+}
 .content blockquote {
   background: transparent !important;
-  border-left: 3px solid #666; }
+  border-left: 3px solid #666;
+}
 .content img {
-  border-radius: 8px; }
-
-.button {
-  border: none; }
-  .button:focus, .button:active {
-    border: none; }
-
-.button.is-link:focus, .button.is-link:hover {
-  background-color: transparent; }
+  border-radius: 8px;
+}
+.content .button {
+  border: none;
+}
+.content .button:focus, .content .button:active {
+  border: none;
+}
+.content .button.is-link:focus, .content .button.is-link:hover {
+  background-color: transparent;
+}
 
 @keyframes logo {
   0% {
-    color: teal; }
+    color: teal;
+  }
   10% {
-    color: salmon; }
+    color: salmon;
+  }
   20% {
-    color: skyblue; }
+    color: skyblue;
+  }
   30% {
-    color: grey; }
+    color: grey;
+  }
   40% {
-    color: orchid; }
+    color: orchid;
+  }
   50% {
-    color: royalblue; }
+    color: royalblue;
+  }
   60% {
-    color: coral; }
+    color: coral;
+  }
   70% {
-    color: dodgerblue; }
+    color: dodgerblue;
+  }
   80% {
-    color: lightseagreen; }
+    color: lightseagreen;
+  }
   90% {
-    color: plum; } }
+    color: plum;
+  }
+}
 @-webkit-keyframes logo {
   0% {
-    color: teal; }
+    color: teal;
+  }
   10% {
-    color: salmon; }
+    color: salmon;
+  }
   20% {
-    color: skyblue; }
+    color: skyblue;
+  }
   30% {
-    color: grey; }
+    color: grey;
+  }
   40% {
-    color: orchid; }
+    color: orchid;
+  }
   50% {
-    color: royalblue; }
+    color: royalblue;
+  }
   60% {
-    color: coral; }
+    color: coral;
+  }
   70% {
-    color: dodgerblue; }
+    color: dodgerblue;
+  }
   80% {
-    color: lightseagreen; }
+    color: lightseagreen;
+  }
   90% {
-    color: plum; } }
+    color: plum;
+  }
+}
 @-moz-keyframes logo {
   0% {
-    color: teal; }
+    color: teal;
+  }
   10% {
-    color: salmon; }
+    color: salmon;
+  }
   20% {
-    color: skyblue; }
+    color: skyblue;
+  }
   30% {
-    color: grey; }
+    color: grey;
+  }
   40% {
-    color: orchid; }
+    color: orchid;
+  }
   50% {
-    color: royalblue; }
+    color: royalblue;
+  }
   60% {
-    color: coral; }
+    color: coral;
+  }
   70% {
-    color: dodgerblue; }
+    color: dodgerblue;
+  }
   80% {
-    color: lightseagreen; }
+    color: lightseagreen;
+  }
   90% {
-    color: plum; } }
+    color: plum;
+  }
+}
 @-o-keyframes logo {
   0% {
-    color: teal; }
+    color: teal;
+  }
   10% {
-    color: salmon; }
+    color: salmon;
+  }
   20% {
-    color: skyblue; }
+    color: skyblue;
+  }
   30% {
-    color: grey; }
+    color: grey;
+  }
   40% {
-    color: orchid; }
+    color: orchid;
+  }
   50% {
-    color: royalblue; }
+    color: royalblue;
+  }
   60% {
-    color: coral; }
+    color: coral;
+  }
   70% {
-    color: dodgerblue; }
+    color: dodgerblue;
+  }
   80% {
-    color: lightseagreen; }
+    color: lightseagreen;
+  }
   90% {
-    color: plum; } }
+    color: plum;
+  }
+}
 
 /*# sourceMappingURL=custom.css.map */

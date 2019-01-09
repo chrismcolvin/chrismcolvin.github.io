@@ -1,68 +1,125 @@
 //colors
 $blue: #17659E;
 $green: #228A7E;
+$black: #333;
+$white: #f8f8f8;
+
+//font
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+$main-font: 'Raleway', sans-serif;
 
 body, button, input, select, textarea {
-    font-family: sans-serif;
+  font-family: $main-font;
 }
 
-// .nav {
-//   .nav-left {
-//     .nav-item {
-//       padding: 0;
-//       margin-right: 20px !important;
+//change color of background of nav
+section.section:first-child {
+  background-color: $black;
+}
 
-//       .logo {
-//           width: 55px;
-//           height: 55px;
-//           //margin-right: 20px;
-//       }
-  
-//       // h1 {
-//       //     position: relative;
-//       //     top: 60px;
-//       //     left: -75px;
-//       // }
-//     }
-//   } 
-// }
+.nav {
+  display: block;
+  background-color: transparent;
+  text-align: left;
 
-.nav h1.title {
-  color: #333;
-  font-weight: 700;
-  font-size: 32px !important;
-  
-  &:hover {
-    animation: logo 2s infinite;
-    -webkit-animation: logo 2s infinite;
-    -moz-animation: logo 2s infinite;
-    -o-animation: logo 2s infinite;
+  h1.title {
+    color: $white;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-size: 32px !important;
+    white-space: nowrap;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    font-family: $main-font;
+    
+    &:hover {
+      animation: logo 2s infinite;
+      -webkit-animation: logo 2s infinite;
+      -moz-animation: logo 2s infinite;
+      -o-animation: logo 2s infinite;
+    }
+  }
+
+  ul.main-menu {
+    width: 100%;
+    text-align: left;
+    margin: 1em 0;
+
+    li {
+      display: inline-block;
+      margin-right: 1em;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: $white;
+        font-family: $main-font;
+        letter-spacing: 1px;
+        border: 1px solid rgba(0,0,0,0);
+        transition: all 0.2s ease;
+
+        &:hover {
+          border-bottom: 1px solid $white;
+        }
+      }
+    }
+  }
+
+  .nav-item.level.is-mobile {
+    display: block;
+    text-align: left;
+    padding: 0;
+
+    a.level-item {
+      margin: 0 1em 0 0;
+
+      span i {
+        color: darken($white,10%);
+
+        svg {
+          width: 1.5em !important;
+          height: 1.5em !important;
+          transition: all 0.2s ease;
+        }
+      }
+
+      &:hover {
+        span i svg {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  a.nav-item {
+    padding: 0;
+    height: 100%;
+    display: inline-block;
   }
 }
 
 h1.title {
-  color: #333;
+  color: $black;
   font-weight: 700;
-}
-
-svg {
-  stroke: darkgrey;
-
-  &:hover {
-    stroke: grey;
-  }
 }
 
 .content {
   h1 {
     font-size: 34px !important;
     font-weight: 700 !important;
+    font-family: $main-font;
     color: lightseagreen !important;
   }
 
   h2, h3, h4, h5, h6 {
-    color: #333;
+    color: $black;
     font-weight: 500;
+    font-family: $main-font;
   }
 
   h3 {
@@ -81,19 +138,25 @@ svg {
   img {
     border-radius: 8px;
   }
-}
 
-.button {
-  border: none;
-
-  &:focus, &:active {
+  .button {
     border: none;
+  
+    &:focus, &:active {
+      border: none;
+    }
+  }
+  
+  .button.is-link:focus, .button.is-link:hover {
+      background-color: transparent;
   }
 }
 
-.button.is-link:focus, .button.is-link:hover {
-    background-color: transparent;
-}
+// .butts {
+//   width: 20px;
+//   height: 20px;
+//   background-color: blue;
+// }
 
 
 //keyframes for logo hover animation
