@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//chrismcolvin.github.io/posts/photo-blog-5/photo-blog-5/</loc>
+    <lastmod>2019-01-14T20:02:01-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//chrismcolvin.github.io/posts/photo-blog-4/photo-blog-4/</loc>
     <lastmod>2018-12-11T21:03:52-05:00</lastmod>
   </url>
@@ -98,7 +103,7 @@
   
   <url>
     <loc>//chrismcolvin.github.io/</loc>
-    <lastmod>2018-12-11T21:03:52-05:00</lastmod>
+    <lastmod>2019-01-14T20:02:01-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,7 +113,7 @@
   
   <url>
     <loc>//chrismcolvin.github.io/posts/</loc>
-    <lastmod>2018-12-11T21:03:52-05:00</lastmod>
+    <lastmod>2019-01-14T20:02:01-05:00</lastmod>
     <priority>0</priority>
   </url>
   
