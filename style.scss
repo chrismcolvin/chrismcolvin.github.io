@@ -140,7 +140,8 @@ header {
     &:after {
       position: relative;
       content: '';
-      width: 50%;
+      width: 66%;
+      max-width: 200px;
       height: 3px;
       background-color: $black;
       display: block;

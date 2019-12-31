@@ -112,7 +112,8 @@ header .container nav ul.nav li a:hover:after {
 .content h1:after, .content h2:after, .content h3:after, .content h4:after, .content h5:after, .content h6:after {
   position: relative;
   content: "";
-  width: 50%;
+  width: 66%;
+  max-width: 200px;
   height: 3px;
   background-color: #333;
   display: block;
