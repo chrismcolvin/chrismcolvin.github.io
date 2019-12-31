@@ -1,0 +1,208 @@
+//colors
+$white: #f8f8f8;
+$black: #333;
+$primary: #57B1FF;
+$accent: #FF7770;
+
+$transition: all 0.3s ease;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+//normalize(ish)
+body {
+  background-color: #121212;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+//header/sidebar
+header {
+  width: 100vw;
+  height: auto;
+  background-color: $black;
+
+  .container {
+    max-width: calc(100vw - 40px);
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .logo {
+      margin-bottom: 20px;
+
+      a {
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $white;
+        transition: $transition;
+
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          opacity: 0;
+          width: 0;
+          height: 4px;
+          left: 0;
+          bottom: -4px;
+          background-color: $primary;
+          border-radius: 1px;
+          transition: $transition;
+        }
+
+        &:hover {
+          color: $primary;
+
+          &:after {
+            opacity: 0.8;
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    nav {
+      ul.nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          margin: 0 10px 5px 0px;
+          display: inline-block;
+
+          a {
+            color: $white;
+            font-family: monospace;
+            font-size: 1.2rem;
+            transition: $transition;
+            position: relative;
+
+            &:after {
+              content: '';
+              opacity: 0;
+              transition: $transition;
+              display: block;
+              width: 0.6rem;
+              height: 3px;
+              background-color: #FF7770;
+              position: absolute;
+              right: -0.8rem;
+              bottom: 4px;
+              transition: all 0.1s ease;
+            }
+
+            &:hover {
+              color: $accent;
+
+              &:after {
+                opacity: 0.8;
+                animation: blink 1.25s infinite;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.image-cycle {
+  width: 100vw;
+  height: calc(100vh - 115px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: $white;
+  z-index: -1;
+
+  .image-container {
+    width: 100%;
+    height: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: $transition;
+
+    animation: cycle 60s infinite;
+  }
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: $black;
+  opacity: 0.8;
+
+  p {
+    font-family: sans-serif;
+    color: $white;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    padding: 0 20px;
+  }
+}
+
+@media (orientation: landscape) {
+  header {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .container {
+      max-width: calc(100% - 40px);
+
+      nav {
+        padding-bottom: 50px;
+        
+        ul.nav {
+          li {
+            display: block;
+            margin: 0 10px 8px 0;
+          }
+        }
+      }
+    }
+  }
+
+  .image-cycle {
+    top: 0;
+    left: auto;
+    width: calc(100vw - 220px);
+    height: 100vh;
+    right: 0;
+
+    .image-container {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .copyright {
+    max-width: 220px;
+  }
+}
+
+@import 'keyframes';

@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap");
+body {
+  background-color: #121212;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+body a {
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  background-color: #333;
+}
+header .container {
+  max-width: calc(100vw - 40px);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+header .container .logo {
+  margin-bottom: 20px;
+}
+header .container .logo a {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #f8f8f8;
+  transition: all 0.3s ease;
+}
+header .container .logo a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 4px;
+  left: 0;
+  bottom: -4px;
+  background-color: #57B1FF;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+}
+header .container .logo a:hover {
+  color: #57B1FF;
+}
+header .container .logo a:hover:after {
+  opacity: 0.8;
+  width: 80%;
+}
+header .container nav ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header .container nav ul.nav li {
+  margin: 0 10px 5px 0px;
+  display: inline-block;
+}
+header .container nav ul.nav li a {
+  color: #f8f8f8;
+  font-family: monospace;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+header .container nav ul.nav li a:after {
+  content: "";
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: block;
+  width: 0.6rem;
+  height: 3px;
+  background-color: #FF7770;
+  position: absolute;
+  right: -0.8rem;
+  bottom: 4px;
+  transition: all 0.1s ease;
+}
+header .container nav ul.nav li a:hover {
+  color: #FF7770;
+}
+header .container nav ul.nav li a:hover:after {
+  opacity: 0.8;
+  animation: blink 1.25s infinite;
+}
+
+.image-cycle {
+  width: 100vw;
+  height: calc(100vh - 115px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #f8f8f8;
+  z-index: -1;
+}
+.image-cycle .image-container {
+  width: 100%;
+  height: 100%;
+  max-width: calc(100% - 40px);
+  max-height: calc(100% - 40px);
+  margin: 0 auto;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: all 0.3s ease;
+  animation: cycle 60s infinite;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #333;
+  opacity: 0.8;
+}
+.copyright p {
+  font-family: sans-serif;
+  color: #f8f8f8;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  padding: 0 20px;
+}
+
+@media (orientation: landscape) {
+  header {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+  }
+  header::-webkit-scrollbar {
+    display: none;
+  }
+  header .container {
+    max-width: calc(100% - 40px);
+  }
+  header .container nav {
+    padding-bottom: 50px;
+  }
+  header .container nav ul.nav li {
+    display: block;
+    margin: 0 10px 8px 0;
+  }
+
+  .image-cycle {
+    top: 0;
+    left: auto;
+    width: calc(100vw - 220px);
+    height: 100vh;
+    right: 0;
+  }
+  .image-cycle .image-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .copyright {
+    max-width: 220px;
+  }
+}
+@keyframes cycle {
+  0% {
+    opacity: 1;
+    background-image: url("img/image_1.jpg");
+  }
+  8% {
+    opacity: 1;
+    background-image: url("img/image_1.jpg");
+  }
+  9% {
+    opacity: 0;
+    background-image: url("img/image_1.jpg");
+  }
+  9.5% {
+    opacity: 0;
+    background-image: url("img/image_2.jpg");
+  }
+  10% {
+    opacity: 1;
+    background-image: url("img/image_2.jpg");
+  }
+  18% {
+    opacity: 1;
+    background-image: url("img/image_2.jpg");
+  }
+  19% {
+    opacity: 0;
+    background-image: url("img/image_2.jpg");
+  }
+  19.5% {
+    opacity: 0;
+    background-image: url("img/image_3.jpg");
+  }
+  20% {
+    opacity: 1;
+    background-image: url("img/image_3.jpg");
+  }
+  28% {
+    opacity: 1;
+    background-image: url("img/image_3.jpg");
+  }
+  29% {
+    opacity: 0;
+    background-image: url("img/image_3.jpg");
+  }
+  29.5% {
+    opacity: 0;
+    background-image: url("img/image_4.jpg");
+  }
+  30% {
+    opacity: 1;
+    background-image: url("img/image_4.jpg");
+  }
+  38% {
+    opacity: 1;
+    background-image: url("img/image_4.jpg");
+  }
+  39% {
+    opacity: 0;
+    background-image: url("img/image_4.jpg");
+  }
+  39.5% {
+    opacity: 0;
+    background-image: url("img/image_5.jpg");
+  }
+  40% {
+    opacity: 1;
+    background-image: url("img/image_5.jpg");
+  }
+  48% {
+    opacity: 1;
+    background-image: url("img/image_5.jpg");
+  }
+  49% {
+    opacity: 0;
+    background-image: url("img/image_5.jpg");
+  }
+  49.5% {
+    opacity: 0;
+    background-image: url("img/image_6.jpg");
+  }
+  50% {
+    opacity: 1;
+    background-image: url("img/image_6.jpg");
+  }
+  58% {
+    opacity: 1;
+    background-image: url("img/image_6.jpg");
+  }
+  59% {
+    opacity: 0;
+    background-image: url("img/image_6.jpg");
+  }
+  59.5% {
+    opacity: 0;
+    background-image: url("img/image_7.jpg");
+  }
+  60% {
+    opacity: 1;
+    background-image: url("img/image_7.jpg");
+  }
+  68% {
+    opacity: 1;
+    background-image: url("img/image_7.jpg");
+  }
+  69% {
+    opacity: 0;
+    background-image: url("img/image_7.jpg");
+  }
+  69.5% {
+    opacity: 0;
+    background-image: url("img/image_8.jpg");
+  }
+  70% {
+    opacity: 1;
+    background-image: url("img/image_8.jpg");
+  }
+  78% {
+    opacity: 1;
+    background-image: url("img/image_8.jpg");
+  }
+  79% {
+    opacity: 0;
+    background-image: url("img/image_8.jpg");
+  }
+  79.5% {
+    opacity: 0;
+    background-image: url("img/image_9.jpg");
+  }
+  80% {
+    opacity: 1;
+    background-image: url("img/image_9.jpg");
+  }
+  88% {
+    opacity: 1;
+    background-image: url("img/image_9.jpg");
+  }
+  89% {
+    opacity: 0;
+    background-image: url("img/image_9.jpg");
+  }
+  89.5% {
+    opacity: 0;
+    background-image: url("img/image_10.jpg");
+  }
+  90% {
+    opacity: 1;
+    background-image: url("img/image_10.jpg");
+  }
+  98% {
+    opacity: 1;
+    background-image: url("img/image_10.jpg");
+  }
+  99% {
+    opacity: 0;
+    background-image: url("img/image_10.jpg");
+  }
+  99.5% {
+    opacity: 0;
+    background-image: url("img/image_1.jpg");
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  55% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
