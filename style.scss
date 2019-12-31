@@ -134,6 +134,9 @@ header {
     background-repeat: no-repeat;
     opacity: 0;
     transition: $transition;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 
     animation: cycle 60s infinite;
   }
@@ -192,12 +195,6 @@ header {
     width: calc(100vw - 220px);
     height: 100vh;
     right: 0;
-
-    .image-container {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
   }
 
   .copyright {
