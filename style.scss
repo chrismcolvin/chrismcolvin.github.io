@@ -9,6 +9,15 @@ $transition: all 0.3s ease;
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
 
 //normalize(ish)
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 body {
   background-color: $white;
   margin: 0;
@@ -18,6 +27,10 @@ body {
   
   a {
     text-decoration: none;
+  }
+
+  &.page {
+    overflow: scroll;
   }
 }
 
@@ -116,17 +129,38 @@ header {
 
 .content {
   max-width: 100vw;
-  padding: 0 20px;
+  padding: 0 20px 50px 20px;
 
-  h1 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    color: $black;
+    margin-top: 20px;
+
+    &:after {
+      position: relative;
+      content: '';
+      width: 50%;
+      height: 3px;
+      background-color: $black;
+      display: block;
+    }
   }
 
   p {
     font-size: 1.1rem;
+    line-height: 1.6rem;
     color: $black;
     font-family: sans-serif;
+    max-width: 768px;
+  }
+
+  img {
+    position: relative;
+    width: 100%;
+    max-width: 512px;
+    height: auto;
+    border-radius: 10px;
   }
 }
 
@@ -203,6 +237,14 @@ header {
         }
       }
     }
+  }
+
+  .content {
+    max-width: calc(100vw - 220px);
+    position: absolute;
+    top: 0;
+    right: auto;
+    left: 220px;
   }
 
   .image-cycle {
