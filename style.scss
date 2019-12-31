@@ -153,6 +153,16 @@ header {
     color: $black;
     font-family: sans-serif;
     max-width: 768px;
+
+    a {
+      color: $primary;
+      transition: $transition;
+      text-decoration: underline;
+
+      &:hover {
+        color: $accent;
+      }
+    }
   }
 
   img {

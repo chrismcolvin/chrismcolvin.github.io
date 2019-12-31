@@ -124,6 +124,14 @@ header .container nav ul.nav li a:hover:after {
   font-family: sans-serif;
   max-width: 768px;
 }
+.content p a {
+  color: #57B1FF;
+  transition: all 0.3s ease;
+  text-decoration: underline;
+}
+.content p a:hover {
+  color: #FF7770;
+}
 .content img {
   position: relative;
   width: 100%;
