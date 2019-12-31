@@ -189,11 +189,6 @@ header .container nav ul.nav li a:hover:after {
     position: fixed;
     left: 0;
     top: 0;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-  }
-  header::-webkit-scrollbar {
-    display: none;
   }
   header .container {
     max-width: calc(100% - 40px);

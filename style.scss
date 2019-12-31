@@ -226,12 +226,6 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
 
     .container {
       max-width: calc(100% - 40px);
