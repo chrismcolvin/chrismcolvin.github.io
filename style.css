@@ -156,15 +156,53 @@ header .container nav ul.nav li a:hover:after {
   max-width: calc(100% - 40px);
   max-height: calc(100% - 40px);
   margin: 0 auto;
+  background-image: url("img/image_1.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
   transition: all 0.3s ease;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 20px);
+  transform: translate(-50%, -50%);
   animation: cycle 60s infinite;
+}
+.image-cycle .image-container.two {
+  background-image: url("img/image_2.jpg");
+  animation-delay: 6s;
+}
+.image-cycle .image-container.three {
+  background-image: url("img/image_3.jpg");
+  animation-delay: 12s;
+}
+.image-cycle .image-container.four {
+  background-image: url("img/image_4.jpg");
+  animation-delay: 18s;
+}
+.image-cycle .image-container.five {
+  background-image: url("img/image_5.jpg");
+  animation-delay: 24s;
+}
+.image-cycle .image-container.six {
+  background-image: url("img/image_6.jpg");
+  animation-delay: 30s;
+}
+.image-cycle .image-container.seven {
+  background-image: url("img/image_7.jpg");
+  animation-delay: 36s;
+}
+.image-cycle .image-container.eight {
+  background-image: url("img/image_8.jpg");
+  animation-delay: 42s;
+}
+.image-cycle .image-container.nine {
+  background-image: url("img/image_9.jpg");
+  animation-delay: 48s;
+}
+.image-cycle .image-container.ten {
+  background-image: url("img/image_10.jpg");
+  animation-delay: 54s;
 }
 
 .copyright {
@@ -217,6 +255,9 @@ header .container nav ul.nav li a:hover:after {
     height: 100vh;
     right: 0;
   }
+  .image-cycle .image-container {
+    top: 50%;
+  }
 
   .copyright {
     max-width: 220px;
@@ -224,164 +265,16 @@ header .container nav ul.nav li a:hover:after {
 }
 @keyframes cycle {
   0% {
-    opacity: 1;
-    background-image: url("img/image_1.jpg");
+    opacity: 0;
   }
-  8% {
+  1% {
     opacity: 1;
-    background-image: url("img/image_1.jpg");
   }
   9% {
-    opacity: 0;
-    background-image: url("img/image_1.jpg");
-  }
-  9.5% {
-    opacity: 0;
-    background-image: url("img/image_2.jpg");
+    opacity: 1;
   }
   10% {
-    opacity: 1;
-    background-image: url("img/image_2.jpg");
-  }
-  18% {
-    opacity: 1;
-    background-image: url("img/image_2.jpg");
-  }
-  19% {
     opacity: 0;
-    background-image: url("img/image_2.jpg");
-  }
-  19.5% {
-    opacity: 0;
-    background-image: url("img/image_3.jpg");
-  }
-  20% {
-    opacity: 1;
-    background-image: url("img/image_3.jpg");
-  }
-  28% {
-    opacity: 1;
-    background-image: url("img/image_3.jpg");
-  }
-  29% {
-    opacity: 0;
-    background-image: url("img/image_3.jpg");
-  }
-  29.5% {
-    opacity: 0;
-    background-image: url("img/image_4.jpg");
-  }
-  30% {
-    opacity: 1;
-    background-image: url("img/image_4.jpg");
-  }
-  38% {
-    opacity: 1;
-    background-image: url("img/image_4.jpg");
-  }
-  39% {
-    opacity: 0;
-    background-image: url("img/image_4.jpg");
-  }
-  39.5% {
-    opacity: 0;
-    background-image: url("img/image_5.jpg");
-  }
-  40% {
-    opacity: 1;
-    background-image: url("img/image_5.jpg");
-  }
-  48% {
-    opacity: 1;
-    background-image: url("img/image_5.jpg");
-  }
-  49% {
-    opacity: 0;
-    background-image: url("img/image_5.jpg");
-  }
-  49.5% {
-    opacity: 0;
-    background-image: url("img/image_6.jpg");
-  }
-  50% {
-    opacity: 1;
-    background-image: url("img/image_6.jpg");
-  }
-  58% {
-    opacity: 1;
-    background-image: url("img/image_6.jpg");
-  }
-  59% {
-    opacity: 0;
-    background-image: url("img/image_6.jpg");
-  }
-  59.5% {
-    opacity: 0;
-    background-image: url("img/image_7.jpg");
-  }
-  60% {
-    opacity: 1;
-    background-image: url("img/image_7.jpg");
-  }
-  68% {
-    opacity: 1;
-    background-image: url("img/image_7.jpg");
-  }
-  69% {
-    opacity: 0;
-    background-image: url("img/image_7.jpg");
-  }
-  69.5% {
-    opacity: 0;
-    background-image: url("img/image_8.jpg");
-  }
-  70% {
-    opacity: 1;
-    background-image: url("img/image_8.jpg");
-  }
-  78% {
-    opacity: 1;
-    background-image: url("img/image_8.jpg");
-  }
-  79% {
-    opacity: 0;
-    background-image: url("img/image_8.jpg");
-  }
-  79.5% {
-    opacity: 0;
-    background-image: url("img/image_9.jpg");
-  }
-  80% {
-    opacity: 1;
-    background-image: url("img/image_9.jpg");
-  }
-  88% {
-    opacity: 1;
-    background-image: url("img/image_9.jpg");
-  }
-  89% {
-    opacity: 0;
-    background-image: url("img/image_9.jpg");
-  }
-  89.5% {
-    opacity: 0;
-    background-image: url("img/image_10.jpg");
-  }
-  90% {
-    opacity: 1;
-    background-image: url("img/image_10.jpg");
-  }
-  98% {
-    opacity: 1;
-    background-image: url("img/image_10.jpg");
-  }
-  99% {
-    opacity: 0;
-    background-image: url("img/image_10.jpg");
-  }
-  99.5% {
-    opacity: 0;
-    background-image: url("img/image_1.jpg");
   }
 }
 @keyframes blink {

@@ -8,6 +8,9 @@ $transition: all 0.3s ease;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
 
+//import images
+@import 'images';
+
 //normalize(ish)
 * {
   box-sizing: border-box;
@@ -190,16 +193,63 @@ header {
     max-width: calc(100% - 40px);
     max-height: calc(100% - 40px);
     margin: 0 auto;
+    background-image: $image_1;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
     transition: $transition;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 20px);
+    transform: translate(-50%,-50%);
 
     animation: cycle 60s infinite;
+
+    &.two {
+      background-image: $image_2;
+      animation-delay: 6s;
+    }
+
+    &.three {
+      background-image: $image_3;
+      animation-delay: 12s;
+    }
+
+    &.four {
+      background-image: $image_4;
+      animation-delay: 18s;
+    }
+
+    &.five {
+      background-image: $image_5;
+      animation-delay: 24s;
+    }
+
+    &.six {
+      background-image: $image_6;
+      animation-delay: 30s;
+    }
+
+    &.seven {
+      background-image: $image_7;
+      animation-delay: 36s;
+    }
+
+    &.eight {
+      background-image: $image_8;
+      animation-delay: 42s;
+    }
+
+    &.nine {
+      background-image: $image_9;
+      animation-delay: 48s;
+    }
+
+    &.ten {
+      background-image: $image_10;
+      animation-delay: 54s;
+    }
   }
 }
 
@@ -258,6 +308,10 @@ header {
     width: calc(100vw - 220px);
     height: 100vh;
     right: 0;
+
+    .image-container {
+      top: 50%;
+    }
   }
 
   .copyright {
