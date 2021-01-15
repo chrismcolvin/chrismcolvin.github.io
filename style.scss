@@ -82,19 +82,19 @@ header {
     content: '';
     overflow: visible;
     visibility: visible;
-    width: 200%;
-    height: 100vh;
+    width: 200vw;
+    height: 200vw;
     display: block;
     position: absolute;
-    top: -50vh;
-    left: -50%;
+    top: -50vw;
+    left: -50vw;
     background: rgb(16,191,119);
     background: -moz-linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
     background: linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10bf77",endColorstr="#a81a81",GradientType=1);
     z-index: 0;
-    animation: rotate 45s infinite linear;
+    animation: rotate 24s infinite linear;
   }
 
   .container {
@@ -305,10 +305,10 @@ header {
 
   @media (min-width: 825px) and (min-height: 525px) {
     &:after {
-      height: 200%;
-      width: 100vw;
-      left: -50vw;
-      top: -50%; 
+      // height: 400%;
+      // width: 200vh;
+      // left: -100vh;
+      // top: -50%; 
     }
   }
 }

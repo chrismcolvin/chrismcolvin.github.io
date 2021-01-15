@@ -70,20 +70,20 @@ header:after {
   content: "";
   overflow: visible;
   visibility: visible;
-  width: 200%;
-  height: 100vh;
+  width: 200vw;
+  height: 200vw;
   display: block;
   position: absolute;
-  top: -50vh;
-  left: -50%;
+  top: -50vw;
+  left: -50vw;
   background: #10bf77;
   background: -webkit-gradient(linear, left top, right top, from(#10bf77), color-stop(50%, #0494bd), to(#a81a81));
   background: -o-linear-gradient(left, #10bf77 0%, #0494bd 50%, #a81a81 100%);
   background: linear-gradient(90deg, #10bf77 0%, #0494bd 50%, #a81a81 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10bf77",endColorstr="#a81a81",GradientType=1);
   z-index: 0;
-  -webkit-animation: rotate 45s infinite linear;
-          animation: rotate 45s infinite linear;
+  -webkit-animation: rotate 24s infinite linear;
+          animation: rotate 24s infinite linear;
 }
 header .container {
   width: 100%;
@@ -275,15 +275,6 @@ header .container nav .nav-group ul.nav li a:not(.no-hover):hover:after {
   -webkit-animation: blink 1.25s infinite;
           animation: blink 1.25s infinite;
 }
-@media (min-width: 825px) and (min-height: 525px) {
-  header:after {
-    height: 200%;
-    width: 100vw;
-    left: -50vw;
-    top: -50%;
-  }
-}
-
 .content {
   max-width: 900px;
   padding: 0 20px 60px 20px;
