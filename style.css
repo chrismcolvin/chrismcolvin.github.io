@@ -45,7 +45,7 @@ body.page:after {
   body.page:after {
     width: calc(100vw - 220px);
     max-width: calc(100vw - 220px);
-    height: 180px;
+    height: 184px;
     top: 0px;
     left: 220px;
   }
@@ -207,6 +207,7 @@ header .container nav .nav-group:last-of-type {
 header .container nav .nav-group h3 {
   margin: 0 0 5px 0;
   font-family: "Rubik", sans-serif;
+  font-size: 1.4rem;
   color: whitesmoke;
 }
 header .container nav .nav-group ul.nav {
@@ -321,7 +322,7 @@ header .container nav .nav-group ul.nav li a:not(.no-hover):hover:after {
 }
 @media (min-width: 825px) and (min-height: 525px) {
   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-    margin-top: 96px;
+    margin-top: 100px;
   }
 }
 .content h1.sr-only, .content h2.sr-only, .content h3.sr-only, .content h4.sr-only, .content h5.sr-only, .content h6.sr-only {
