@@ -178,7 +178,7 @@ header .container nav .nav-group#nav-group_mobile ul.nav li a {
 header .container nav .nav-group#nav-group_mobile ul.nav li ul.sub-nav {
   position: absolute;
   width: 120vw;
-  top: 36px;
+  top: 72px;
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -194,6 +194,7 @@ header .container nav .nav-group#nav-group_mobile ul.nav li ul.sub-nav li a {
   font-weight: normal;
 }
 header .container nav .nav-group#nav-group_mobile ul.nav li ul.sub-nav.active {
+  top: 36px;
   opacity: 1;
 }
 @media (min-width: 600px) {
