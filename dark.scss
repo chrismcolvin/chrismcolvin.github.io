@@ -1,0 +1,179 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    &.page {
+      background-color: #111;
+
+      &:after {
+        background-color: #0d0d0d;
+      }
+
+      header {
+        &:after {
+          background: rgb(126,68,28);
+          background: -moz-linear-gradient(90deg, rgba(126,68,28,1) 0%, rgba(77,29,112,1) 50%, rgba(34,112,88,1) 100%);
+          background: -webkit-linear-gradient(90deg, rgba(126,68,28,1) 0%, rgba(77,29,112,1) 50%, rgba(34,112,88,1) 100%);
+          background: linear-gradient(90deg, rgba(126,68,28,1) 0%, rgba(77,29,112,1) 50%, rgba(34,112,88,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7e441c",endColorstr="#227058",GradientType=1);
+        }
+      }
+
+      .content {
+        h1, h2, h3, h4, h5, h6 {
+          color: $white;
+        }
+
+        p {
+          color: $white;
+        }
+
+        button.btn-toggle {
+          i {
+            background-color: $white;
+            color: $black;
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      footer.copyright {
+        background-color: darken(rgba($black,0.5),5%);
+      }
+    }
+
+    &.light-theme {
+      &.page {
+        background-color: $white;
+  
+        &:after {
+          background-color: darken($black,5%);
+        }
+  
+        header {
+          &:after {
+            background: rgb(16,191,119);
+            background: -moz-linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
+            background: -webkit-linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
+            background: linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10bf77",endColorstr="#a81a81",GradientType=1);
+          }
+        }
+  
+        .content {
+          h1 {
+            color: $white;
+          }
+
+          h2, h3, h4, h5, h6 {
+            color: $black;
+          }
+  
+          p {
+            color: $black;
+          }
+
+          button.btn-toggle {
+            i {
+              background-color: $black;
+              color: $white;
+              transform: rotate(0deg);
+            }
+          }
+        }
+  
+        footer.copyright {
+          background-color: rgba($black,0.5);
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    &.page {
+      background-color: $white;
+
+      &:after {
+        background-color: darken($black,5%);
+      }
+
+      header {
+        &:after {
+          background: rgb(16,191,119);
+          background: -moz-linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
+          background: -webkit-linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
+          background: linear-gradient(90deg, rgba(16,191,119,1) 0%, rgba(4,148,189,1) 50%, rgba(168,26,129,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10bf77",endColorstr="#a81a81",GradientType=1);
+        }
+      }
+
+      .content {
+        h1 {
+          color: $white;
+        }
+
+        h2, h3, h4, h5, h6 {
+          color: $black;
+        }
+
+        p {
+          color: $black;
+        }
+
+        button.btn-toggle {
+          i {
+            background-color: $black;
+            color: $white;
+            transform: rotate(0deg);
+          }
+        }
+      }
+
+      footer.copyright {
+        background-color: rgba($black,0.5);
+      }
+    }
+
+    &.dark-theme {
+      &.page {
+        background-color: #111;
+  
+        &:after {
+          background-color: #0d0d0d;
+        }
+  
+        header {
+          &:after {
+            background: rgb(126,68,28);
+            background: -moz-linear-gradient(90deg, rgba(126,68,28,1) 0%, rgba(77,29,112,1) 50%, rgba(34,112,88,1) 100%);
+            background: -webkit-linear-gradient(90deg, rgba(126,68,28,1) 0%, rgba(77,29,112,1) 50%, rgba(34,112,88,1) 100%);
+            background: linear-gradient(90deg, rgba(126,68,28,1) 0%, rgba(77,29,112,1) 50%, rgba(34,112,88,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7e441c",endColorstr="#227058",GradientType=1);
+          }
+        }
+  
+        .content {
+          h1, h2, h3, h4, h5, h6 {
+            color: $white;
+          }
+  
+          p {
+            color: $white;
+          }
+
+          button.btn-toggle {
+            i {
+              background-color: $white;
+              color: $black;
+              transform: rotate(180deg);
+            }
+          }
+        }
+  
+        footer.copyright {
+          background-color: darken(rgba($black,0.5),5%);
+        }
+      }
+    }
+  }
+}
