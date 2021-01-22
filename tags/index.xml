@@ -1,15 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Chris Colvin</title>
-    <link>//chrismcolvin.github.io/tags/</link>
+    <link>https://chrismcolvin.com/tags/</link>
     <description>Recent content in Tags on Chris Colvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; Chris Colvin 2019</copyright>
+    <lastBuildDate>Thu, 22 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>all</title>
+      <link>https://chrismcolvin.com/tags/all/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/all/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="//chrismcolvin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blogging</title>
+      <link>https://chrismcolvin.com/tags/blogging/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/blogging/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>general</title>
+      <link>https://chrismcolvin.com/tags/general/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/general/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
