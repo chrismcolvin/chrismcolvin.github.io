@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blogging on Chris Colvin</title>
-    <link>https://chrismcolvin.com/tags/blogging/</link>
-    <description>Recent content in blogging on Chris Colvin</description>
+    <title>hugo on Chris Colvin</title>
+    <link>https://chrismcolvin.com/tags/hugo/</link>
+    <description>Recent content in hugo on Chris Colvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spinning Up a Hugo Blog - Part 2</title>
       <link>https://chrismcolvin.com/posts/hugo-blog-2/</link>
@@ -25,16 +25,6 @@ A couple things to note, though, before we get started. If you are looking for t
       <guid>https://chrismcolvin.com/posts/hugo-blog/</guid>
       <description>Or, How I Made This Blog I’ve thought about creating a blog for a while now, but was always hesitant. For one reason or another, I just didn’t feel like I should. This was of course silly, especially given the number of articles out there that make it clear, the best way to start a blog is to start one.
 One of the main reasons I never started one was because I wanted to make a blog site that was custom, easy to use, and fast.</description>
-    </item>
-    
-    <item>
-      <title>Baby&#39;s First Blog Post</title>
-      <link>https://chrismcolvin.com/posts/blog-intro/</link>
-      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrismcolvin.com/posts/blog-intro/</guid>
-      <description>What&amp;rsquo;s going on here? I write about my interests. As of right now, that is really about the gist of it! I’ve wanted to start a blog for a long time. However, I never really thought I had anything worth sharing. And, honestly, not much has changed. One thing that has changed, though, is my perspective no whether or not that matters. Turns out, it doesn’t. But something does…
- I have a confession: I hated writing papers in high-school.</description>
     </item>
     
   </channel>

@@ -6,7 +6,37 @@
     <description>Recent content in Posts on Chris Colvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://chrismcolvin.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://chrismcolvin.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Film Photography</title>
+      <link>https://chrismcolvin.com/posts/film-photography/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/posts/film-photography/</guid>
+      <description>Of all the artistic mediums that I’ve tried, only one has stuck with me as something that I truly love: photography. I love photography. I also have an immense appreciation for film. And now, I’m going to delve into why that is, and maybe it will spark an interest in someone new!
+I first got into photography in high-school. Like many things in my life, I got the idea to try out photography from my older brother.</description>
+    </item>
+    
+    <item>
+      <title>Spinning Up a Hugo Blog - Part 2</title>
+      <link>https://chrismcolvin.com/posts/hugo-blog-2/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/posts/hugo-blog-2/</guid>
+      <description>Part 2: Installing Hugo Intro Alright, so you’re excited about creating your new website and you’re excited to give Hugo a try. Fair enough! Let’s jump right into it!
+A couple things to note, though, before we get started. If you are looking for the simplest and quickest way to get Hugo up and running, look no further than Hugo’s own docs. They are fairly easy to read, and are great if you’re just looking to get into it as quickly as possible.</description>
+    </item>
+    
+    <item>
+      <title>Spinning Up a Hugo Blog - Part 1</title>
+      <link>https://chrismcolvin.com/posts/hugo-blog/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/posts/hugo-blog/</guid>
+      <description>Or, How I Made This Blog I’ve thought about creating a blog for a while now, but was always hesitant. For one reason or another, I just didn’t feel like I should. This was of course silly, especially given the number of articles out there that make it clear, the best way to start a blog is to start one.
+One of the main reasons I never started one was because I wanted to make a blog site that was custom, easy to use, and fast.</description>
+    </item>
+    
     <item>
       <title>Baby&#39;s First Blog Post</title>
       <link>https://chrismcolvin.com/posts/blog-intro/</link>

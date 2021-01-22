@@ -1,27 +1,28 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>Categories // Chris Colvin</title>
+    <title>Spinning Up a Hugo Blog - Part 1 // Chris Colvin</title>
     <link rel="shortcut icon" href="/favicon.png" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.80.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Chris Colvin" />
-    <meta name="description" content="" />
+    <meta name="description" content="How to create a blog using Hugo." />
     <link rel="stylesheet" href="https://chrismcolvin.com/css/main.min.a8f0925db5a9d129ac0ea58ef7d2800daacfcc5bf94e0aa2089b2b160eb8ccb3.css" />
     <script src="/scripts.js"></script>
     <script src="https://kit.fontawesome.com/745d1062b8.js" crossorigin="anonymous"></script>
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="The personal website of Chris Colvin."/>
+<meta name="twitter:title" content="Spinning Up a Hugo Blog - Part 1"/>
+<meta name="twitter:description" content="How to create a blog using Hugo."/>
 
-    <meta property="og:title" content="Categories" />
-<meta property="og:description" content="The personal website of Chris Colvin." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://chrismcolvin.com/categories/" />
-
+    <meta property="og:title" content="Spinning Up a Hugo Blog - Part 1" />
+<meta property="og:description" content="How to create a blog using Hugo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chrismcolvin.com/posts/hugo-blog/" />
+<meta property="article:published_time" content="2018-04-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-04-17T00:00:00+00:00" />
 
 
   </head>
@@ -146,11 +147,52 @@
     <main class="app-container">
       
       
-  <article>
-    <h1>Categories</h1>
-    <ul class="tags-list">
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Spinning Up a Hugo Blog - Part 1</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 17, 2018
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+              <a class="tag" href="https://chrismcolvin.com/tags/all/">all</a>
+              <a class="tag" href="https://chrismcolvin.com/tags/development/">development</a>
+              <a class="tag" href="https://chrismcolvin.com/tags/blogging/">blogging</a>
+              <a class="tag" href="https://chrismcolvin.com/tags/hugo/">hugo</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h2 id="or-how-i-made-this-blog">Or, How I Made This Blog</h2>
+<p>I’ve thought about creating a blog for a while now, but was always hesitant. For one reason or another, I just didn’t feel like I <em>should</em>. This was of course silly, especially given the number of articles out there that make it clear, the best way to start a blog is to <strong>start one</strong>.</p>
+<p>One of the main reasons I never started one was because I wanted to make a blog site that was custom, easy to use, and fast. In the past, any sites I’ve made have been made completely static using good ‘ol HTML &amp; CSS. Somewhat recently, however, I had to get used to the idea of using WordPress for my new job. Not only did I discover that WordPress isn’t as terrible as I always imagined, it can be kind of fun! But that didn’t change my mind about using it for a blog-it’s just too heavy for something so simple.</p>
+<p>For a while I thought my only options were to manually create, organize, and style my pages, or to use some sort of templating tool. A blog didn’t seem like it was worth the work of doing everything manually, and I was too lacking in web dev finesse to want to mess with template systems or the like.</p>
+<p>I’ve been listening to <a href="http://shoptalkshow.com/">The Shop Talk Show</a> for a while now, and there was one episode where <a href="https://daverupert.com/">Dave Rupert</a> was talking about this thing that could make static websites by just running a few commands in a console. This was well before I had spent much time in a console, but that sounded cool! It also sounded like exactly what I’d want to use for a simple blog. (Only) a couple of years later, and I decided to give it a try.</p>
+<p>If you are a listener of that wonderful podcast, or you’ve spent more than a few months in the web dev community, you can probably guess what I’m talking about. It is, of course, <a href="https://jekyllrb.com/">Jekyll</a>. If you didn’t know that, or don’t know much about it, Jekyll is what is called a static site generator. Basically, a static site generator is a program that uses a database to take a bunch of random (well, not really) files and smash them together into a fully functional website. Jekyll is likely the most well known and loved static site generator out there today.</p>
+<p>However, even Jekyll turned out to be more complicated than what I wanted. Jekyll is very, very cool, and is surprisingly good at scaling to different needs. And while there are certainly easier ways of getting a site up and running <em>with</em> Jekyll, I’ve found myself more and more enjoying my time in the console, and wanted to be able to do things quickly and easily there, without having to spend hours learning, installing dependencies, troubleshooting, etc.</p>
+<p>After a bit of searching around, I came across <a href="https://gohugo.io/">Hugo</a>. Hugo is also a static site generator, but it’s a bit… lighter. After a bit of research this seemed like the perfect option for me and my new blog. It’s extremely easy to install, run, and works quite well with <a href="https://pages.github.com/">Github Pages</a>, which is what I wanted to use to host my blog. Getting the blog live on Pages was far and away more difficult than building a site with Hugo, and you really only to set it up once to get things working. Now, all I really need to do is write a post using beautiful <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, and push to Github. That’s. It.</p>
+<p>So, here we are, Hugo + Github Pages (and a custom domain) and I’ve got my ideal blogging solution that will allow me to expand a bit here and there as I go, without having to really worry about much else.</p>
+<p>Join me in <a href="/posts/hugo-blog-2">Part 2</a> to see how to install and get started with Hugo.</p>
+
+    </div>
+    <div class="post-footer">
       
-    </ul>
+    </div>
   </article>
 
     </main>
