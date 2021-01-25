@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
     //loop through the menu items and replace the text
     menuItems.forEach(a => {
         //get the text
-        itemText = a.outerText;
+        itemText = a.innerText;
 
         //if the text is blank
         if(!itemText) {
