@@ -35,9 +35,16 @@ header {
   box-shadow: 0 0 2px rgba(var(--color-gray), 0.5);
   display: flex;
   margin-bottom: 5vw;
-  position: sticky;
+  position: relative;
   top: 0;
   height: 72px;
+  width: 100%;
+}
+
+@media (min-width: 600px) and (min-width: 600px) {
+  header {
+    position: sticky;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -270,6 +277,17 @@ section {
   max-width: 900px;
   padding-left: 18px;
   padding-right: 18px;
+  width: 100%;
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+  .home section {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
 }
 
 h1,
