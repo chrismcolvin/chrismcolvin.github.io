@@ -40,9 +40,9 @@ header {
   height: 72px;
 }
 
-@media (min-width: 936px) {
+@media (min-width: 1400px) {
   header {
-    margin-bottom: 47px;
+    margin-bottom: 72px;
   }
 }
 
