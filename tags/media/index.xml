@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>media on Chris Colvin</title>
+    <title>media on :computer: Chris Colvin // Developer &amp; Photographer</title>
     <link>https://chrismcolvin.com/tags/media/</link>
-    <description>Recent content in media on Chris Colvin</description>
+    <description>Recent content in media on :computer: Chris Colvin // Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2022 Chris M. Colvin. All rights reserved.</copyright>
     <lastBuildDate>Fri, 22 Jan 2021 16:28:55 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/media/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Top Podcasts 2021</title>
@@ -13,7 +14,7 @@
       <pubDate>Fri, 22 Jan 2021 16:28:55 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/posts/top-podcasts-2021/</guid>
-      <description>My Top Ten Podcasts for 2021 Podcasts have exploded in the last few years, and I have no doubt that 2021 will see that trend continue.</description>
+      <description>My Top Ten Podcasts for 2021 #Podcasts have exploded in the last few years, and I have no doubt that 2021 will see that trend continue.</description>
     </item>
     
   </channel>

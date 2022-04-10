@@ -2,88 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/all/</loc>
-    <lastmod>2021-01-22T16:28:55-05:00</lastmod>
-  </url>
+    
+      <url>
+            <loc>https://chrismcolvin.com/</loc>
+            <lastmod>2021-01-22T16:28:55-05:00</lastmod>
+            <priority>0</priority>
+          </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/</loc>
-    <lastmod>2021-01-22T16:28:55-05:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/media/</loc>
-    <lastmod>2021-01-22T16:28:55-05:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/podcasts/</loc>
-    <lastmod>2021-01-22T16:28:55-05:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/posts/</loc>
-    <lastmod>2021-01-22T16:28:55-05:00</lastmod>
-  </url>
+    
+      <url>
+            <loc>https://chrismcolvin.com/posts/</loc>
+            <lastmod>2021-01-22T16:28:55-05:00</lastmod>
+          </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/</loc>
-    <lastmod>2021-01-22T16:28:55-05:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/posts/top-podcasts-2021/</loc>
-    <lastmod>2021-01-22T16:28:55-05:00</lastmod>
-  </url>
+    
+      <url>
+            <loc>https://chrismcolvin.com/posts/top-podcasts-2021/</loc>
+            <lastmod>2021-01-22T16:28:55-05:00</lastmod>
+          </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/posts/film-photography/</loc>
-    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
-  </url>
+    
+      <url>
+            <loc>https://chrismcolvin.com/posts/film-photography/</loc>
+            <lastmod>2018-06-07T00:00:00+00:00</lastmod>
+          </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/photography/</loc>
-    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/blogging/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/development/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/hugo/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/posts/hugo-blog-2/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-  </url>
+    
+      <url>
+            <loc>https://chrismcolvin.com/posts/hugo-blog-2/</loc>
+            <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+          </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/posts/hugo-blog/</loc>
-    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
-  </url>
+    
+      <url>
+            <loc>https://chrismcolvin.com/posts/hugo-blog/</loc>
+            <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+          </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/posts/blog-intro/</loc>
-    <lastmod>2018-03-22T00:00:00+00:00</lastmod>
-  </url>
+    
+      <url>
+            <loc>https://chrismcolvin.com/posts/blog-intro/</loc>
+            <lastmod>2018-03-22T00:00:00+00:00</lastmod>
+          </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/tags/general/</loc>
-    <lastmod>2018-03-22T00:00:00+00:00</lastmod>
-  </url>
+    
   
-  <url>
-    <loc>https://chrismcolvin.com/categories/</loc>
-  </url>
+    
   
 </urlset>
