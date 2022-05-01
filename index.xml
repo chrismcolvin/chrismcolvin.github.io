@@ -53,5 +53,14 @@
       <description>What&amp;rsquo;s going on here?</description>
     </item>
     
+    <item>
+      <title>My Work History</title>
+      <link>https://chrismcolvin.com/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/work/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
