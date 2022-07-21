@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>photos on :computer: Chris Colvin // Developer &amp; Photographer</title>
+    <link>https://chrismcolvin.com/tags/photos/</link>
+    <description>Recent content in photos on :computer: Chris Colvin // Developer &amp; Photographer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2022 Chris M. Colvin. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 17 Jul 2022 19:31:26 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Photos - This Round&#39;s In The House</title>
+      <link>https://chrismcolvin.com/posts/photos-1/</link>
+      <pubDate>Sun, 17 Jul 2022 19:31:26 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/posts/photos-1/</guid>
+      <description>For whatever reason, be it lack of motivation, bad weather, business, or whatever, I just haven&amp;rsquo;t gotten out to take many photos this year.</description>
+    </item>
+    
+  </channel>
+</rss>

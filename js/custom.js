@@ -37,8 +37,32 @@ function homeSocial() {
 }
 
 
+// Image Popup Links
+function imgLinks() {
+  const imgs      = document.querySelectorAll('.content-section figure img');
+  const imgHolder = document.querySelector('.img-holder');
+  const imgClose  = document.querySelector('.img-close');
+
+  imgs.forEach(function(img) {
+    const src = img.getAttribute('src');
+
+    img.addEventListener('click', function() {
+      imgHolder.classList.add('active');
+      imgClose.classList.add('active');
+      imgHolder.innerHTML = '<img src="' + src + '">';
+
+      imgClose.addEventListener('click', function() {
+        imgHolder.classList.remove('active');
+        imgClose.classList.remove('active');
+      })
+    })
+  })
+}
+
+
 // Run Scripts
 window.addEventListener('load', function () {
   // Add scripts here
   homeSocial();
+  imgLinks();
 }, false);
