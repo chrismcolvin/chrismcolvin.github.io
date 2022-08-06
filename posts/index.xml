@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2022 Chris M. Colvin. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 06 Aug 2022 17:05:26 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test New</title>
-      <link>https://chrismcolvin.com/posts/test-new/</link>
-      <pubDate>Sat, 06 Aug 2022 17:05:26 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/posts/test-new/</guid>
-      <description>This is a new test.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 01 Aug 2022 21:52:49 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Sad Thing, React.js, Linux, and the Beauty of Post-Apocalyptic Boston</title>
       <link>https://chrismcolvin.com/posts/july-2022/</link>
