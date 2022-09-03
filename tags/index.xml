@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2022 Chris M. Colvin. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 01 Aug 2022 21:52:49 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Sep 2022 14:19:11 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>all</title>
       <link>https://chrismcolvin.com/tags/all/</link>
-      <pubDate>Mon, 01 Aug 2022 21:52:49 -0400</pubDate>
+      <pubDate>Sat, 03 Sep 2022 14:19:11 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photography</title>
+      <link>https://chrismcolvin.com/tags/photography/</link>
+      <pubDate>Sat, 03 Sep 2022 14:19:11 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photos</title>
+      <link>https://chrismcolvin.com/tags/photos/</link>
+      <pubDate>Sat, 03 Sep 2022 14:19:11 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/photos/</guid>
       <description></description>
     </item>
     
@@ -41,24 +59,6 @@
       <pubDate>Mon, 01 Aug 2022 21:52:49 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/updates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photography</title>
-      <link>https://chrismcolvin.com/tags/photography/</link>
-      <pubDate>Sun, 17 Jul 2022 19:31:26 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photos</title>
-      <link>https://chrismcolvin.com/tags/photos/</link>
-      <pubDate>Sun, 17 Jul 2022 19:31:26 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/photos/</guid>
       <description></description>
     </item>
     
