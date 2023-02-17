@@ -39,17 +39,19 @@ function homeSocial() {
 
 // Image Popup Links
 function imgLinks() {
-  const imgs      = document.querySelectorAll('.content-section figure img');
+  const imgs      = document.querySelectorAll('.content-section figure');
   const imgHolder = document.querySelector('.img-holder');
   const imgClose  = document.querySelector('.img-close');
 
   imgs.forEach(function(img) {
-    const src = img.getAttribute('src');
+    const link    = img.querySelector('a');
+    const linkRef = link.getAttribute('href');
 
-    img.addEventListener('click', function() {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
       imgHolder.classList.add('active');
       imgClose.classList.add('active');
-      imgHolder.innerHTML = '<img src="' + src + '">';
+      imgHolder.innerHTML = '<img src="' + linkRef + '">';
 
       imgClose.addEventListener('click', function() {
         imgHolder.classList.remove('active');
