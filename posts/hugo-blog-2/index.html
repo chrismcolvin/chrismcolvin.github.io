@@ -472,7 +472,7 @@
 </code></pre>
 <p>This should do it for Ubuntu/Debian users. Go ahead and follow the instructions in their docs if you’re using a different operating system.</p>
 <p>Once complete, go ahead and type: <code>hugo version</code> to double check that the installation worked. It should show something like this:</p>
-<p>
+<p><a href="hugo-version.png">
 
 
 
@@ -496,7 +496,7 @@
     </figure>
   
 
-</p>
+</a></p>
 <h4 id="the-version-problem" class="relative group">The version problem <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-version-problem" aria-label="Anchor">#</a></span></h4>
 <p>One of the issues I ran into with Hugo was with installation. Or rather, it was with installing a theme. That in itself is an easy enough task, but if you look at a theme <a href="https://themes.gohugo.io/">here</a>, you’ll see that on the left-hand side, it shows a minimum Hugo version. This is the minimum version of Hugo that you need installed in order to use that particular theme.</p>
 <p>That’s all well and good, but installing Hugo by following the instructions in their docs should install the latest stable version, so that any theme can be used, right? Wrong. When I installed Hugo using the apt-get command, it installed version 0.16, or something like that. This only allowed me to use a small handful of themes, and there is no way to sort them by minimum version support.</p>
@@ -518,7 +518,7 @@
 <pre><code>hugo new site blog
 </code></pre>
 <p>Instead of <em>blog</em>, use whatever name you want to identify your site. This will create a new folder with all of the necessary files. So, if we type <code>ls</code> you should see your new site folder listed.</p>
-<p>
+<p><a href="ls-blog.png">
 
 
 
@@ -542,7 +542,7 @@
     </figure>
   
 
-</p>
+</a></p>
 <p>That’s it.</p>
 <h3 id="picking--installing-a-theme" class="relative group">Picking &amp; installing a theme <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#picking--installing-a-theme" aria-label="Anchor">#</a></span></h3>
 <p>For most themes, to install, you’re really just going to clone a GitHub repo into your themes folder. So, first things first, <code>cd</code> into your site folder. In my case that would be</p>
@@ -550,7 +550,7 @@
 </code></pre>
 <p>Now, go to the <a href="https://themes.gohugo.io/">hugo themes site</a>, and pick one. Remember how I made a big deal about how <code>apt-get install hugo</code> didn’t install the latest version? That’s because most of these themes will require a much later version of Hugo than what it initially installed.</p>
 <p>Anyways, pick a theme-I really like Kiss for a super simple blog-and click on the Download button.</p>
-<p>
+<p><a href="theme-download.png">
 
 
 
@@ -574,9 +574,9 @@
     </figure>
   
 
-</p>
+</a></p>
 <p>You’ll want to look for the big green “Clone or Download” button on the themes GitHub page. Click that, and then copy the URL.</p>
-<p>
+<p><a href="github-copy.png">
 
 
 
@@ -600,13 +600,13 @@
     </figure>
   
 
-</p>
+</a></p>
 <p>Now go back to your console.</p>
 <p>First, we need to initialize Git in your site folder. It’s pretty simple, just <code>git init</code>. If you don’t have Git installed, <a href="https://git-scm.com/">go ahead and install it first</a>. Then, we want to tell Git to clone and download the theme files into the appropriate folder. By telling it to put the theme in <code>themes/kiss</code> it will automatically create the folder for me.</p>
 <pre><code>git submodule add https://github.com/ribice/kiss.git themes/kiss
 </code></pre>
 <p>Let it do its thing. It should look something like this.</p>
-<p>
+<p><a href="theme-install.png">
 
 
 
@@ -630,7 +630,7 @@
     </figure>
   
 
-</p>
+</a></p>
 <h4 id="setting-the-theme" class="relative group">Setting the theme <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#setting-the-theme" aria-label="Anchor">#</a></span></h4>
 <p>Once that’s done, you’ve pretty much installed a theme. You’ll need to tell your site to use the theme, especially if you have multiple themes installed (which you can totally do). The first thing you’ll want to do is add the theme to your config.toml file. This is where a lot of basic information for your site will go. Being a .toml file, it’s a sort of database for Hugo to pull information from when it’s building your site later on. Once you’ve downloaded and decided on a theme, go ahead and add it to your config.toml file: <code>theme = &quot;themeName&quot;</code>.</p>
 <p>If you’ve installed multiple themes, and you want to try some different ones, you can use <code>-t</code> to tell Hugo which theme to use when building your site. In a bit, we’ll go over how to view your site on Hugo’s built-in local server, which is a great way to view and try different themes locally.</p>
