@@ -5,7 +5,6 @@
     <link>https://chrismcolvin.com/categories/</link>
     <description>Recent content in Categories on :computer: Chris Colvin // Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright &amp;copy; 2022 Chris M. Colvin. All rights reserved.</copyright><atom:link href="https://chrismcolvin.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://chrismcolvin.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
