@@ -6,7 +6,16 @@
     <description>Recent content in all on :computer: Chris Colvin // Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Apr 2023 21:39:38 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/all/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2023 19:43:59 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/all/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Baby&#39;s First Shell Script</title>
+      <link>https://chrismcolvin.com/posts/first-scripts/</link>
+      <pubDate>Mon, 22 May 2023 19:43:59 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/posts/first-scripts/</guid>
+      <description>Since I switch frequently between Linux, macOS, &amp;amp; Windows, one of the things that has become increasingly clear to me is that the Linux terminal is pretty awesome.</description>
+    </item>
+    
     <item>
       <title>First Spring Hike of 2023</title>
       <link>https://chrismcolvin.com/posts/photos-4-21-23/</link>
