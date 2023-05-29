@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on :computer: Chris Colvin // Developer &amp; Photographer</title>
+    <title>Tags on </title>
     <link>https://chrismcolvin.com/tags/</link>
-    <description>Recent content in Tags on :computer: Chris Colvin // Developer &amp; Photographer</description>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 22 May 2023 19:43:59 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 07:58:26 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>all</title>
       <link>https://chrismcolvin.com/tags/all/</link>
-      <pubDate>Mon, 22 May 2023 19:43:59 -0400</pubDate>
+      <pubDate>Mon, 29 May 2023 07:58:26 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photography</title>
+      <link>https://chrismcolvin.com/tags/photography/</link>
+      <pubDate>Mon, 29 May 2023 07:58:26 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photos</title>
+      <link>https://chrismcolvin.com/tags/photos/</link>
+      <pubDate>Mon, 29 May 2023 07:58:26 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/photos/</guid>
       <description></description>
     </item>
     
@@ -40,24 +57,6 @@
       <pubDate>Mon, 22 May 2023 19:43:59 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photography</title>
-      <link>https://chrismcolvin.com/tags/photography/</link>
-      <pubDate>Fri, 21 Apr 2023 21:39:38 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photos</title>
-      <link>https://chrismcolvin.com/tags/photos/</link>
-      <pubDate>Fri, 21 Apr 2023 21:39:38 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/photos/</guid>
       <description></description>
     </item>
     

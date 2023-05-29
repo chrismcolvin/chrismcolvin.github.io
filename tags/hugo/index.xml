@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on :computer: Chris Colvin // Developer &amp; Photographer</title>
+    <title>hugo on </title>
     <link>https://chrismcolvin.com/tags/hugo/</link>
-    <description>Recent content in hugo on :computer: Chris Colvin // Developer &amp; Photographer</description>
+    <description>Recent content in hugo on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spinning Up a Hugo Blog - Part 2</title>
@@ -13,7 +12,7 @@
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://chrismcolvin.com/posts/hugo-blog-2/</guid>
-      <description>Part 2: Installing Hugo # Intro # Alright, so you’re excited about creating your new website and you’re excited to give Hugo a try.</description>
+      <description>Part 2: Installing Hugo #Intro #Alright, so you’re excited about creating your new website and you’re excited to give Hugo a try.</description>
     </item>
     
     <item>
@@ -22,7 +21,7 @@
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://chrismcolvin.com/posts/hugo-blog/</guid>
-      <description>Or, How I Made This Blog # I’ve thought about creating a blog for a while now, but was always hesitant.</description>
+      <description>Or, How I Made This Blog #I’ve thought about creating a blog for a while now, but was always hesitant.</description>
     </item>
     
   </channel>

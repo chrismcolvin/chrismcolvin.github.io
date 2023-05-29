@@ -57,6 +57,15 @@ function imgLinks() {
         imgHolder.classList.remove('active');
         imgClose.classList.remove('active');
       })
+
+      imgHolder.addEventListener('click', function(e) {
+        if(e.target === imgHolder.querySelector('img')) {
+          // Do nothing
+        } else {
+          imgHolder.classList.remove('active');
+          imgClose.classList.remove('active');
+        }
+      })
     })
   })
 }
