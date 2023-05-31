@@ -45,28 +45,31 @@ function imgLinks() {
 
   imgs.forEach(function(img) {
     const link    = img.querySelector('a');
-    const linkRef = link.getAttribute('href');
 
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      imgHolder.classList.add('active');
-      imgClose.classList.add('active');
-      imgHolder.innerHTML = '<img src="' + linkRef + '">';
-
-      imgClose.addEventListener('click', function() {
-        imgHolder.classList.remove('active');
-        imgClose.classList.remove('active');
-      })
-
-      imgHolder.addEventListener('click', function(e) {
-        if(e.target === imgHolder.querySelector('img')) {
-          // Do nothing
-        } else {
+    if(link) {
+      const linkRef = link.getAttribute('href');
+      
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        imgHolder.classList.add('active');
+        imgClose.classList.add('active');
+        imgHolder.innerHTML = '<img src="' + linkRef + '">';
+  
+        imgClose.addEventListener('click', function() {
           imgHolder.classList.remove('active');
           imgClose.classList.remove('active');
-        }
+        })
+  
+        imgHolder.addEventListener('click', function(e) {
+          if(e.target === imgHolder.querySelector('img')) {
+            // Do nothing
+          } else {
+            imgHolder.classList.remove('active');
+            imgClose.classList.remove('active');
+          }
+        })
       })
-    })
+    }
   })
 }
 
