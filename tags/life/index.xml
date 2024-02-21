@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on :computer: Chris Colvin // Developer &amp; Photographer</title>
+    <link>https://chrismcolvin.com/tags/life/</link>
+    <description>Recent content in life on :computer: Chris Colvin // Developer &amp; Photographer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Feb 2024 20:06:33 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>To Start, Forget Everything You Know</title>
+      <link>https://chrismcolvin.com/posts/forget-everything/</link>
+      <pubDate>Tue, 20 Feb 2024 20:06:33 -0500</pubDate>
+      
+      <guid>https://chrismcolvin.com/posts/forget-everything/</guid>
+      <description>Today, I needed to do something at work that I hadn&amp;rsquo;t done in years.</description>
+    </item>
+    
+  </channel>
+</rss>
