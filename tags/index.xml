@@ -5,11 +5,11 @@
     <link>https://chrismcolvin.com/tags/</link>
     <description>Recent content in Tags on :computer: Chris Colvin // Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Aug 2024 21:41:54 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Dec 2024 20:24:51 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>all</title>
       <link>https://chrismcolvin.com/tags/all/</link>
-      <pubDate>Tue, 20 Aug 2024 21:41:54 -0400</pubDate>
+      <pubDate>Mon, 30 Dec 2024 20:24:51 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/tags/all/</guid>
       <description></description>
@@ -18,9 +18,18 @@
     <item>
       <title>photography</title>
       <link>https://chrismcolvin.com/tags/photography/</link>
-      <pubDate>Tue, 20 Aug 2024 21:41:54 -0400</pubDate>
+      <pubDate>Mon, 30 Dec 2024 20:24:51 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://chrismcolvin.com/tags/tech/</link>
+      <pubDate>Mon, 30 Dec 2024 20:24:51 -0500</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -75,15 +84,6 @@
       <pubDate>Mon, 22 May 2023 19:43:59 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://chrismcolvin.com/tags/tech/</link>
-      <pubDate>Mon, 22 May 2023 19:43:59 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/tech/</guid>
       <description></description>
     </item>
     
