@@ -74,9 +74,42 @@ function imgLinks() {
 }
 
 
+// Photoroll View Toggle
+function photorollToggle() {
+  // Get the article
+  const article = document.querySelector('article.photoroll');
+
+  // If it exists...
+  if(article) {
+    // Get the toggle
+    const toggle = article.querySelector('.photoroll h2.view-switcher');
+
+    // If it exists...
+    if(toggle) {
+      // listen for clicks
+      toggle.addEventListener('click', function() {
+        // Toggle class
+        if(toggle.classList.contains('grid')) {
+          toggle.classList.add('roll');
+          toggle.classList.remove('grid');
+          article.classList.add('roll');
+          article.classList.remove('grid');
+        } else {
+          toggle.classList.remove('roll');
+          toggle.classList.add('grid');
+          article.classList.remove('roll');
+          article.classList.add('grid');
+        }
+      })
+    }
+  }
+}
+
+
 // Run Scripts
 window.addEventListener('load', function () {
   // Add scripts here
   homeSocial();
   imgLinks();
+  photorollToggle();
 }, false);
