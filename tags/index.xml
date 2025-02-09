@@ -5,13 +5,31 @@
     <link>https://chrismcolvin.com/tags/</link>
     <description>Recent content in Tags on Chris Colvin &lt;/&gt; Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Feb 2025 21:09:14 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Feb 2025 00:09:41 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>all</title>
       <link>https://chrismcolvin.com/tags/all/</link>
-      <pubDate>Sat, 01 Feb 2025 21:09:14 -0500</pubDate>
+      <pubDate>Sun, 09 Feb 2025 00:09:41 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coding</title>
+      <link>https://chrismcolvin.com/tags/coding/</link>
+      <pubDate>Sun, 09 Feb 2025 00:09:41 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://chrismcolvin.com/tags/development/</link>
+      <pubDate>Sun, 09 Feb 2025 00:09:41 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/development/</guid>
       <description></description>
     </item>
     
@@ -39,15 +57,6 @@
       <pubDate>Mon, 30 Dec 2024 20:24:51 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>development</title>
-      <link>https://chrismcolvin.com/tags/development/</link>
-      <pubDate>Tue, 20 Feb 2024 20:06:33 -0500</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/development/</guid>
       <description></description>
     </item>
     
