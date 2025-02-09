@@ -1,9 +1,3 @@
-// Simplify logging
-function log(e) {
-  console.log(e);
-}
-
-
 // Table of contents scroll tracker
 window.addEventListener('DOMContentLoaded', () => {
 
