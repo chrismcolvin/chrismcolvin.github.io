@@ -5,13 +5,40 @@
     <link>https://chrismcolvin.com/tags/</link>
     <description>Recent content in Tags on Chris Colvin &lt;/&gt; Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Feb 2025 08:13:16 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 12:20:41 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>all</title>
       <link>https://chrismcolvin.com/tags/all/</link>
-      <pubDate>Wed, 12 Feb 2025 08:13:16 -0500</pubDate>
+      <pubDate>Wed, 26 Feb 2025 12:20:41 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/tags/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social media</title>
+      <link>https://chrismcolvin.com/tags/social-media/</link>
+      <pubDate>Wed, 26 Feb 2025 12:20:41 -0500</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://chrismcolvin.com/tags/tech/</link>
+      <pubDate>Wed, 26 Feb 2025 12:20:41 -0500</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://chrismcolvin.com/tags/web/</link>
+      <pubDate>Wed, 26 Feb 2025 12:20:41 -0500</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/web/</guid>
       <description></description>
     </item>
     
@@ -48,15 +75,6 @@
       <pubDate>Sun, 09 Feb 2025 00:09:41 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://chrismcolvin.com/tags/tech/</link>
-      <pubDate>Mon, 30 Dec 2024 20:24:51 -0500</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/tech/</guid>
       <description></description>
     </item>
     
