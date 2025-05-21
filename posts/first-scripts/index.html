@@ -93,7 +93,7 @@
     "keywords": ["all","linux","bash","tech"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1746"
+    "wordCount": "1736"
   }]
   </script>
 
@@ -349,7 +349,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-05-22 19:43:59 -0400 EDT">May 22 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1746 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span>
+      <time datetime="2023-05-22 19:43:59 -0400 EDT">May 22 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1736 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span>
     
 
     
@@ -437,7 +437,7 @@
       
       <div class="min-w-0 min-h-0 max-w-prose content-section">
         <p>Since I switch frequently between Linux, macOS, &amp; Windows, one of the things that has become increasingly clear to me is that the Linux terminal is pretty awesome. At first, I thought it was just fun, but that doing things with a UI was still more intuitive and efficient. But over time, my mind has changed on that. Recently, I was performing a task that I do frequently and that can get very repetitive, and I thought that there just had to be a better way.</p>
-<h2 id="the-problem" class="relative group">The Problem <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-problem" aria-label="Anchor">#</a></span></h2>
+<h2 id="the-problem" class="relative group">The Problem </h2>
 <p>As a web developer and photographer, I am gathering, resizing, and optimizing images for the web on a daily basis. Typically this involves putting the images I need together in the appropriate folder, running them all through something like <a href="https://imageoptim.com/mac">ImageOptim</a>, and then using export for web in Photoshop to achieve a manageable file size.</p>
 <p>This workflow works well, but has a few downsides:</p>
 <ul>
@@ -445,13 +445,13 @@
 <li>Two, Adobe recently began charging more per month to get both Lightroom and Photoshop, and I simply don’t want to spend money every month to do such a simple task</li>
 <li>And three, the above tools are not available for Linux, pushing me to look at alternatives.</li>
 </ul>
-<h2 id="enter-the-terminal" class="relative group">Enter the Terminal <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#enter-the-terminal" aria-label="Anchor">#</a></span></h2>
+<h2 id="enter-the-terminal" class="relative group">Enter the Terminal </h2>
 <p>The terminal allows the user to tell the computer to do something simply by typing. And there are apps that use this interface to complete tasks. For example, <a href="https://imagemagick.org/">ImageMagick</a> provides a bunch of useful image processing options via the command line. Two that are important to me are resizing and optimization. Another great app is <a href="https://github.com/tjko/jpegoptim">jpegoptim</a>, which has similar features to ImageOptim, but without the UI.</p>
 <p>Using these is great, but they present a couple of additional issues: typing can be cumbersome, and you have to remember the commands.</p>
-<h2 id="the-solution" class="relative group">The Solution <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-solution" aria-label="Anchor">#</a></span></h2>
+<h2 id="the-solution" class="relative group">The Solution </h2>
 <p>Bash allows any user to create and run scripts within the terminal. These can be as simple as echoing out “Hello World” or as complicated as entire games (<a href="https://www.howtogeek.com/791146/linux-terminal-games/">yes, you play them within the terminal</a>). For my purposes, what I liked most about the idea of writing a script, is that it would allow me to string together a series of tasks, taking into account my input for certain things, by just running a single command.</p>
 <p>To test the idea, I started relatively simple. You see, on GNU/Linux systems you can update all of your apps using the terminal. Keeping track of what you can update with which command, though can be tricky, because while my Debian-based system uses the APT package manager for apps and packages, I also use apps that use Snap and Flatpak. But, what if I could update all three with just one command? A script lets me do that.</p>
-<h3 id="it-starts-with-a-bang" class="relative group">It Starts With A Bang <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#it-starts-with-a-bang" aria-label="Anchor">#</a></span></h3>
+<h3 id="it-starts-with-a-bang" class="relative group">It Starts With A Bang </h3>
 <p><a href="https://bash.cyberciti.biz/guide/Shebang">Shebang</a>, to be precise. This basically tells the system that what it&rsquo;s about to read is meant to be executed by a specified interpreter. In my instance, that is Bash.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
 </span></span></span></code></pre></div><p>From there a bash script can contain a meriad of things including echoing out text, creating and accepting variables, conditionals, etc. It can also contain commands. For my purposes, I start by running the standard command to update apt package repositories.</p>
@@ -475,14 +475,14 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Done! Now check for errors and fix accordingly.&#34;</span>
 </span></span></code></pre></div><p>Seems pretty simple, right? It is! But that&rsquo;s sort of the beauty of it. This one simple block of code allows me to run all of those updates, complete with a bit of flavor text, by typing one word (followed by .sh) into my terminal! Doesn&rsquo;t seem like a whole lot, I know, so let&rsquo;s look at another script I wrote.</p>
-<h3 id="image-optimization" class="relative group">Image Optimization <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#image-optimization" aria-label="Anchor">#</a></span></h3>
+<h3 id="image-optimization" class="relative group">Image Optimization </h3>
 <p>This one is a bit more involved, and utilizes the programs I mentioned earlier. What&rsquo;s the goal? To be able to pop into any folder of images (assuming they&rsquo;re jpegs) and run one command to resize, optimize, and strip the EXIF data off all of them in one go. We start with&hellip;</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#! /usr/bin/bash
 </span></span></span></code></pre></div><p>But you already knew that.</p>
 <p>Next, we&rsquo;ll use imagemagick to resize the images. But to what size? Well, I&rsquo;d like to be able to tell it what size I want when I run the script, that way I can potentially use it for multiple purposes. The simplest command to resize (that I&rsquo;ve found) is <code>mogrify -resize (your width in pixels) *.jpg</code>. This will resize all .jpg files in the directory to the width you choose. It will automatically skip folders and files that it can&rsquo;t modify. But, we want to be able to tell the program what width to use in the script, and to do this we&rsquo;ll need two things: user prompts and variables. We need a prompt for the user to enter a number, and a variable to put that number into the mogrify command.</p>
-<h4 id="learning-to-read" class="relative group">Learning to Read <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#learning-to-read" aria-label="Anchor">#</a></span></h4>
+<h4 id="learning-to-read" class="relative group">Learning to Read </h4>
 <p>The <code>read</code> command essentially lets us prompt the user to type something in and, assuming the user does, stores that value. We&rsquo;ll be asking the user to input their desired image width and then storing that input into a variable called &lsquo;width.&rsquo; It&rsquo;s a pretty simple, but powerful, combination that looks like this <code>read width</code>. This variable can be used later with <code>$width</code>. But, what do we do with that value once we have it?</p>
-<h4 id="if-this-then-that" class="relative group">If This Then That <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#if-this-then-that" aria-label="Anchor">#</a></span></h4>
+<h4 id="if-this-then-that" class="relative group">If This Then That </h4>
 <p>Now, we&rsquo;ll plug that number into the <code>-resize</code> command I mentioned earlier. But it&rsquo;s important to consider what happens if the user doesn&rsquo;t do what&rsquo;s expected. I&rsquo;ll admit that I could have accounted for more scenarios, but I did at least want to have a fallback, or default, for how wide to make images if the user leaves their response blank. To do this, we&rsquo;ll use a conditional that says, &ldquo;If the user inputs a number, use that as the image width. But, if the user didn&rsquo;t answer, make the images 2400px wide.&rdquo; Why 2400px? Idk.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$width</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
 </span></span><span class="line"><span class="cl">		<span class="nb">echo</span> <span class="s2">&#34;Running...&#34;</span>
@@ -493,7 +493,7 @@
 </span></span><span class="line"><span class="cl">		mogrify -resize <span class="nv">$width</span> *.jpg
 </span></span><span class="line"><span class="cl">	<span class="k">fi</span>
 </span></span></code></pre></div><p>Of course, imagemagick has some conditionals of its own, and while you&rsquo;re running my script, if it runs into any errors, it&rsquo;ll let you know.</p>
-<h4 id="quality-over-quality" class="relative group">Quality Over Quality <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#quality-over-quality" aria-label="Anchor">#</a></span></h4>
+<h4 id="quality-over-quality" class="relative group">Quality Over Quality </h4>
 <p>Next, we&rsquo;ll set the quality we want. We prompt the user for their desired quality (in this case a percentage)&hellip;</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;What quality level do you want your images to be?&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">read</span> quality
@@ -507,7 +507,7 @@
 </span></span><span class="line"><span class="cl">		mogrify -quality <span class="nv">$quality</span> *.jpg
 </span></span><span class="line"><span class="cl">	<span class="k">fi</span>
 </span></span></code></pre></div><p>Make sense? I&rsquo;m sure it does. You&rsquo;re very smart after all. Which is why you&rsquo;re asking, we&rsquo;re going to strip the EXIF data now, right? But what if we don&rsquo;t want to do that this time?</p>
-<h4 id="lets-strip" class="relative group">Let&rsquo;s Strip <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#lets-strip" aria-label="Anchor">#</a></span></h4>
+<h4 id="lets-strip" class="relative group">Let&rsquo;s Strip </h4>
 <p>I&rsquo;m going to be honest, I haven&rsquo;t completely wrapped my head around this one yet. But I do know that it works. We&rsquo;re going to use a <a href="https://linuxize.com/post/bash-while-loop/">while loop</a> with a <a href="https://www.howtogeek.com/766978/how-to-use-case-statements-in-bash-scripts/">case statement</a> to ask the user if they want to strip the EXIF data and, if they do, do it.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="k">while</span> true<span class="p">;</span> <span class="k">do</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">read</span> -p <span class="s2">&#34;Would you like to strip EXIF data? &#34;</span> yn
@@ -562,7 +562,7 @@
 </span></span><span class="line"><span class="cl">Would you like to strip EXIF data? y
 </span></span><span class="line"><span class="cl">Done.
 </span></span></code></pre></div><p>With that, I&rsquo;ve resized all .jpg files in the current directory to 1280px wide at a quality of 75 and with EXIF data stripped. Pretty cool!</p>
-<h2 id="a-whole-new-world" class="relative group">A Whole New World! <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#a-whole-new-world" aria-label="Anchor">#</a></span></h2>
+<h2 id="a-whole-new-world" class="relative group">A Whole New World! </h2>
 <p>To anyone who has had to batch resize, strip, and optimize large numbers of images using the likes of Adobe Bridge and Photoshop the benefits of this CLI approach are obvious. What a time saver! Not to mention it&rsquo;s significantly lighter on resources than Adobe&rsquo;s offerings. And it&rsquo;s gotten me excited about the possibilities of other experiments I can play with and problems I can solve with Bash scripts.</p>
 <p>The benefits of scripting aren&rsquo;t just for Linux users, too. I’ve actually moved that script over to both macOS (at work) and WSL2 on my Windows partition. Thanks to Windows Subsystem for Linux, Windows users can enjoy Bash scripting in a native environment.</p>
 <hr>
