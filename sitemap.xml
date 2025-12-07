@@ -293,10 +293,40 @@
     
   
     
+      <url>
+            <loc>https://chrismcolvin.com/about/about/</loc>
+          </url>
+    
   
     
       <url>
-            <loc>https://chrismcolvin.com/work/</loc>
+            <loc>https://chrismcolvin.com/about/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://chrismcolvin.com/contact/about/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://chrismcolvin.com/contact/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://chrismcolvin.com/listening/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://chrismcolvin.com/listening/listening/</loc>
           </url>
     
   
