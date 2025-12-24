@@ -5,22 +5,31 @@
     <link>https://chrismcolvin.com/tags/</link>
     <description>Recent content in Tags on Chris Colvin &lt;/&gt; Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 May 2025 10:26:41 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Dec 2025 10:35:42 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>all</title>
+      <link>https://chrismcolvin.com/tags/all/</link>
+      <pubDate>Wed, 24 Dec 2025 10:35:42 -0500</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photography</title>
+      <link>https://chrismcolvin.com/tags/photography/</link>
+      <pubDate>Wed, 24 Dec 2025 10:35:42 -0500</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/photography/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>gaming</title>
       <link>https://chrismcolvin.com/tags/gaming/</link>
       <pubDate>Sun, 18 May 2025 10:26:41 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/gaming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>all</title>
-      <link>https://chrismcolvin.com/tags/all/</link>
-      <pubDate>Tue, 06 May 2025 20:01:45 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/all/</guid>
       <description></description>
     </item>
     
@@ -84,15 +93,6 @@
       <pubDate>Wed, 26 Feb 2025 12:20:41 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photography</title>
-      <link>https://chrismcolvin.com/tags/photography/</link>
-      <pubDate>Wed, 12 Feb 2025 08:13:16 -0500</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/photography/</guid>
       <description></description>
     </item>
     
