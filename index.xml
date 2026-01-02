@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 24 Dec 2025 10:35:42 -0500</lastBuildDate><atom:link href="https://chrismcolvin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My Links</title>
+      <link>https://chrismcolvin.com/links/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/links/</guid>
+      <description>Sitemap Home About Posts </description>
+    </item>
+    
+    <item>
+      <title>Photography Portfolio</title>
+      <link>https://chrismcolvin.com/photo-portfolio/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrismcolvin.com/photo-portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rethinking Photography</title>
       <link>https://chrismcolvin.com/posts/rethinking-photography/</link>
       <pubDate>Wed, 24 Dec 2025 10:35:42 -0500</pubDate>
@@ -84,7 +102,7 @@
       <pubDate>Sat, 01 Feb 2025 21:09:14 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/posts/photos-2-1-25/</guid>
-      <description></description>
+      <description> </description>
     </item>
     
     <item>
@@ -93,7 +111,7 @@
       <pubDate>Sat, 01 Feb 2025 15:08:59 -0500</pubDate>
       
       <guid>https://chrismcolvin.com/photoroll/</guid>
-      <description></description>
+      <description> </description>
     </item>
     
     <item>
@@ -314,28 +332,28 @@
     
     <item>
       <title>About Chris Colvin</title>
-      <link>https://chrismcolvin.com/about/about/</link>
+      <link>https://chrismcolvin.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrismcolvin.com/about/about/</guid>
+      <guid>https://chrismcolvin.com/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact Chris Colvin</title>
-      <link>https://chrismcolvin.com/contact/contact/</link>
+      <link>https://chrismcolvin.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrismcolvin.com/contact/contact/</guid>
+      <guid>https://chrismcolvin.com/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What I&#39;m Listening To</title>
-      <link>https://chrismcolvin.com/listening/listening/</link>
+      <link>https://chrismcolvin.com/listening/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrismcolvin.com/listening/listening/</guid>
+      <guid>https://chrismcolvin.com/listening/</guid>
       <description></description>
     </item>
     

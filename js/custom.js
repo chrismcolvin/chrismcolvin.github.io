@@ -100,10 +100,57 @@ function photorollToggle() {
 }
 
 
+// Portfolio filters
+function filtersFn() {
+  // Get the filter buttons
+  const filterBtns = document.querySelectorAll('button.filter');
+  // Get the filter items
+  const filterItems = document.querySelectorAll('[data-filter]');
+
+  // If there are any...
+  if(filterBtns.length > 0 && filterItems.length > 0) {
+    // For each button
+    filterBtns.forEach(function(filterBtn) {
+      // When clicked
+      filterBtn.addEventListener('click', function() {
+        // Get the ID
+        const btnID = this.getAttribute('id');
+
+        // Add active class, but remove the active class from all other buttons
+        filterBtns.forEach(function(filterBtn) {
+          filterBtn.classList.remove('active');
+        })
+        this.classList.add('active');
+
+        // For each filter item
+        filterItems.forEach(function(filterItem) {
+          // If the filter data does not match the button ID, otherwise don't hide
+          if(filterItem.getAttribute('data-filter') != btnID) {
+            filterItem.classList.add('hide');
+          } else {
+            filterItem.classList.remove('hide');
+          }
+        })
+
+        // However, if 'All' is clicked, show all
+        if(btnID === 'all') {
+          filterItems.forEach(function(filterItem) {
+            filterItem.classList.remove('hide');
+          })
+        }
+      })
+    })
+  } else {
+    console.warn('No filters found!');
+  }
+}
+
+
 // Run Scripts
 window.addEventListener('load', function () {
   // Add scripts here
   homeSocial();
   imgLinks();
   photorollToggle();
+  filtersFn();
 }, false);
