@@ -125,10 +125,12 @@ function filtersFn() {
         // For each filter item
         filterItems.forEach(function(filterItem) {
           // If the filter data does not match the button ID, otherwise don't hide
-          if(filterItem.getAttribute('data-filter') != btnID) {
-            filterItem.classList.add('hide');
-          } else {
+          const filterFor = filterItem.getAttribute('data-filter');
+
+          if(filterFor.includes(btnID)) {
             filterItem.classList.remove('hide');
+          } else {
+            filterItem.classList.add('hide');
           }
         })
 
