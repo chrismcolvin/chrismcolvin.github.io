@@ -5,7 +5,16 @@
     <link>https://chrismcolvin.com/</link>
     <description>Recent content on Chris Colvin &lt;/&gt; Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 08 Apr 2026 19:19:03 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 14:54:44 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Where I&#39;m Landing on AI</title>
+      <link>https://chrismcolvin.com/posts/where-im-landing-on-ai/</link>
+      <pubDate>Thu, 09 Apr 2026 14:54:44 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/posts/where-im-landing-on-ai/</guid>
+      <description>A House Finch taken with the Olympus E-M10 and 75-300mm II</description>
+    </item>
+    
     <item>
       <title>Monochrome March Is Done</title>
       <link>https://chrismcolvin.com/posts/monochrome-march-is-done/</link>
@@ -364,15 +373,6 @@
       
       <guid>https://chrismcolvin.com/listening/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Where I&#39;m Landing on AI</title>
-      <link>https://chrismcolvin.com/posts/where-im-landing-on-ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrismcolvin.com/posts/where-im-landing-on-ai/</guid>
-      <description>A House Finch taken with the Olympus E-M10 and 75-300mm II</description>
     </item>
     
   </channel>
