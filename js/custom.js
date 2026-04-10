@@ -143,7 +143,58 @@ function filtersFn() {
       })
     })
   } else {
-    console.warn('No filters found!');
+    // Do nothing
+  }
+}
+
+
+// Highlight footnotes when anchor link is clicked
+function footnotesFn() {
+  const docLinks = document.querySelectorAll('a');
+
+  if(docLinks.length > 0) {
+    docLinks.forEach(function(docLink) {
+      const linkHref = docLink.getAttribute('href');
+
+      if(linkHref.includes('#fn:')) {
+        const fnNum = linkHref.replace(/\D/g, "");
+
+        docLink.addEventListener('click', function() {
+          const fnIds = document.querySelectorAll('[id^="fn:"]');
+
+          if(fnIds.length > 0) {
+            fnIds.forEach(function(fnId) {
+              const fnIdHref = fnId.getAttribute('id');
+              const fnIdNum = fnIdHref.replace(/\D/g, "");
+
+              if(fnIdNum === fnNum) {
+                fnId.classList.add('highlight');
+
+                setTimeout(function() {
+                  fnId.classList.remove('highlight');
+                }, 5000)
+              }
+            })
+          }
+        })
+      }
+    })
+  }
+}
+
+
+// Make x's and y's z's italic when solo and em'd
+function mathFn() {
+  const maths = document.querySelectorAll('em');
+
+  if(maths.length > 0) {
+    maths.forEach(function(math) {
+      const mathText = math.innerText;
+
+      if(mathText === 'x' || mathText === 'y' || mathText === 'z') {
+        math.style.fontFamily = 'serif';
+      }
+    })
   }
 }
 
@@ -155,4 +206,6 @@ window.addEventListener('load', function () {
   imgLinks();
   photorollToggle();
   filtersFn();
+  footnotesFn();
+  mathFn();
 }, false);
