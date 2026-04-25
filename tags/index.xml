@@ -5,22 +5,40 @@
     <link>https://chrismcolvin.com/tags/</link>
     <description>Recent content in Tags on Chris Colvin &lt;/&gt; Developer &amp; Photographer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Apr 2026 13:51:37 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Apr 2026 08:29:37 -0400</lastBuildDate><atom:link href="https://chrismcolvin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>all</title>
       <link>https://chrismcolvin.com/tags/all/</link>
-      <pubDate>Fri, 24 Apr 2026 13:51:37 -0400</pubDate>
+      <pubDate>Sat, 25 Apr 2026 08:29:37 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/all/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>gear</title>
+      <link>https://chrismcolvin.com/tags/gear/</link>
+      <pubDate>Sat, 25 Apr 2026 08:29:37 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/gear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>photography</title>
       <link>https://chrismcolvin.com/tags/photography/</link>
-      <pubDate>Fri, 24 Apr 2026 13:51:37 -0400</pubDate>
+      <pubDate>Sat, 25 Apr 2026 08:29:37 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://chrismcolvin.com/tags/tech/</link>
+      <pubDate>Sat, 25 Apr 2026 08:29:37 -0400</pubDate>
+      
+      <guid>https://chrismcolvin.com/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -39,15 +57,6 @@
       <pubDate>Thu, 09 Apr 2026 14:54:44 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://chrismcolvin.com/tags/tech/</link>
-      <pubDate>Thu, 09 Apr 2026 14:54:44 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -138,15 +147,6 @@
       <pubDate>Sun, 09 Feb 2025 00:09:41 -0400</pubDate>
       
       <guid>https://chrismcolvin.com/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gear</title>
-      <link>https://chrismcolvin.com/tags/gear/</link>
-      <pubDate>Tue, 30 May 2023 19:34:20 -0400</pubDate>
-      
-      <guid>https://chrismcolvin.com/tags/gear/</guid>
       <description></description>
     </item>
     
